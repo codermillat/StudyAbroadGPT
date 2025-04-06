@@ -611,82 +611,48 @@ The model demonstrated robust capabilities in:
 - Accurate domain-specific information
 - Comprehensive coverage of study abroad topics
 
-## Conclusion
 
-Our research successfully demonstrates a comprehensive approach to adapting large language models for specialized educational consultation, achieving significant improvements across multiple dimensions:
-
-### Performance Achievements
-
-1. Training Efficiency:
-   - P100 Phase: 52.7% loss reduction (1.0125 → 0.4787)
-   - T4 Phase: Enhanced stability with < 2% variation
-   - Combined Accuracy: 92% in domain-specific responses
-   
-2. Resource Optimization:
-   - Memory Footprint: 75% reduction through quantization
-   - GPU Utilization: 85-95% efficiency across phases
-   - Processing Speed: Maintained 100 samples/second
-   
-3. Quality Metrics:
-   - Response Format: 95% compliance
-   - Content Accuracy: 92% validation rate
-   - Context Coherence: 91% maintenance
-
-### Key Contributions
-
-1. Technical Innovation:
-   - Multi-Phase Training Strategy:
-     * Initial rapid convergence on P100
-     * Stability refinement on T4
-     * Synchronized weight updates
-   - Resource Management:
-     * Optimized memory allocation
-     * Efficient GPU utilization
-     * Balanced performance trade-offs
-
-2. Quality Framework:
-   - Comprehensive Monitoring:
-     * Real-time performance tracking
-     * Automated quality validation
-     * System resource optimization
-   - Response Validation:
-     * Format consistency checks
-     * Content accuracy assessment
-     * User interaction analysis
-
-### Future Directions
-
-1. Technical Advancements:
-   - Quantization:
-     * Enhanced precision techniques
-     * Dynamic bit-width adaptation
-     * Custom quantization schemes
-   - Training Optimization:
-     * Advanced pipeline scheduling
-     * Distributed training support
-     * Automated resource allocation
-
-2. Functional Extensions:
-   - Language Support:
-     * Multi-lingual training
-     * Cross-cultural adaptation
-     * Regional compliance
-   - System Integration:
-     * Real-time updates
-     * API standardization
-     * Deployment automation
-       
 ## Conclusion and Future Work
 
-This research presents a novel two-phase fine-tuning methodology for optimizing the Mistral-7B large language model to provide personalized study abroad consultation. In the first phase, a synthetic dataset comprising 1,000 examples was generated using the Gemini Pro API and fine-tuned with the unsloth/mistral-7b-instruct-v0.3-bnb-4bit model using 4-bit quantization and QLoRA techniques. In the second phase, a domain-specific dataset named StudyAbroadGPT-Dataset, consisting of 500 real student profiles with university and course recommendations, was used to further align the model with the requirements of authentic study abroad queries.
+This research presents a robust and resource-efficient framework for fine-tuning large language models to deliver personalized study abroad consultation. By employing a novel **two-phase training strategy**, we adapted the Mistral-7B model using a combination of synthetic and real-world domain-specific datasets, along with LoRA and 4-bit quantization techniques, to meet the practical needs of students seeking international education opportunities.
 
-The final model achieved a high performance level with a BLEU score of 87.5, surpassing both the baseline model and the intermediate synthetic dataset model. The model's outputs demonstrated strong alignment with actual recommendations and student preferences, thereby validating the effectiveness of the two-phase fine-tuning strategy.
+In **Phase 1**, we generated 1,000 synthetic examples using the Gemini Pro API and performed initial training on the `unsloth/mistral-7b-instruct-v0.3-bnb-4bit` model, achieving a rapid 52.7% loss reduction on a P100 GPU. In **Phase 2**, we further aligned the model using a curated dataset of 500 real student profiles, enhancing response specificity and contextual accuracy. This dual-phase approach, supported by low-rank adaptation and quantized fine-tuning, proved to be highly effective, culminating in a final **BLEU score of 87.5** and **92% domain-specific accuracy**.
 
-Despite these successes, several limitations exist. The synthetic data, while useful in bootstrapping model training, may not fully capture the complexity and diversity of real-world student scenarios. Additionally, the model may struggle with interpreting ambiguous or incomplete student inputs, especially those involving nuanced personal motivations. Furthermore, although the model performs well on the evaluation dataset, its generalizability across different education systems and dynamic admission criteria remains an area for improvement.
+### Key Achievements
 
-Future work should address these limitations by incorporating real-time academic databases, official university admission portals, and student success stories to enhance dataset quality. Integration with Retrieval-Augmented Generation (RAG) architectures and vector databases such as FAISS or ChromaDB could significantly improve the model's accuracy, relevance, and responsiveness. Furthermore, deploying the model in web-based platforms or messaging apps would enable real-time personalized support, increasing its accessibility and utility for a global student audience.
+- **Training Efficiency**: 
+  - Achieved rapid convergence and stability across heterogeneous hardware setups (P100 and T4).
+  - Maintained consistent training throughput (~100 samples/sec) with optimized memory usage and 85–95% GPU utilization.
 
-In summary, this study demonstrates that with efficient training techniques like LoRA and 4-bit quantization, large language models can be effectively fine-tuned to offer valuable consultation services in resource-constrained environments. These findings hold significant promise for the future of AI-driven educational support, especially in low-resource settings where traditional counseling services are limited.
+- **Resource Optimization**:
+  - Achieved a **75% reduction in memory footprint** through quantization.
+  - Ensured high performance in resource-constrained environments without compromising quality.
 
+- **Quality Metrics**:
+  - Ensured **95% compliance in response formatting**, **92% accuracy in recommendations**, and **91% contextual coherence**.
+  - Implemented a robust validation framework including automated content evaluation and response structure checks.
 
-This research establishes a robust framework for developing specialized language models in educational guidance, demonstrating that effective domain adaptation can be achieved while maintaining practical deployment requirements. The demonstrated improvements in both performance and efficiency provide a strong foundation for future developments in AI-assisted educational consultation.
+### Limitations
+
+Despite strong empirical results, several limitations remain:
+- The synthetic dataset, while useful for bootstrapping, may not fully capture the diverse and nuanced nature of real-world student cases.
+- The model may encounter difficulties interpreting ambiguous or incomplete user inputs.
+- Generalizability across varying global education systems and dynamic admission policies remains an open challenge.
+
+### Future Work
+
+To further enhance the system, we propose the following directions:
+
+#### Technical Advancements
+- **Advanced Quantization**: Explore dynamic bit-width adaptation and custom quantization schemes to improve precision while conserving memory.
+- **Training Optimization**: Incorporate distributed training support and automated pipeline scheduling for scalability across larger datasets and compute clusters.
+- **Integration with RAG Architectures**: Leverage vector databases like FAISS or ChromaDB to retrieve real-time academic content, improving factuality and adaptability.
+
+#### Functional Enhancements
+- **Real-Time Knowledge Integration**: Connect with live academic portals and admission databases to ensure up-to-date recommendations.
+- **Multi-Lingual & Cultural Adaptation**: Extend the model to support multi-language input/output and address regional variations in admission standards.
+- **Deployment Automation**: Develop APIs and deploy the system on web or messaging platforms for real-time user interaction and broader accessibility.
+
+---
+
+In summary, this work demonstrates that **large language models can be effectively fine-tuned for domain-specific educational consultation** using efficient training methodologies. The resulting system provides high-quality, personalized guidance with minimal resource requirements, offering a scalable solution for AI-driven support in low-resource educational contexts. This foundation sets the stage for future innovation in **AI-assisted academic advising**, with the potential to transform access to global education for students worldwide.
