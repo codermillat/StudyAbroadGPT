@@ -538,9 +538,11 @@ Phase-wise performance analysis revealed progressive improvements:
      * Loss Reduction: 1.0125 → 0.4787
      * Convergence Rate: 0.00187/step
      * Format Accuracy: 88%
-   ![Line chart showing the training loss of the StudyAbroadGPT-7B model over 270 training steps. The curve starts near 1.0 and steadily declines, stabilizing around 0.45–0.55 with small fluctuations, indicating successful convergence during training.](Report_P100/train/Loss_Chart.png)
+   
+  ![Line chart showing the training loss of the StudyAbroadGPT-7B model over 270 training steps. The curve starts near 1.0 and steadily declines, stabilizing around 0.45–0.55 with small fluctuations, indicating successful convergence during training.](Report_P100/train/Loss_Chart.png)
      The Training Loss Chart shows the model’s training loss over time (in terms of global_step). Initially, the loss starts at approximately 1.0, reflecting the untrained state of the model. As training progresses, the loss rapidly declines, indicating that the model is learning effectively from the dataset. After around 50 steps, the loss stabilizes and fluctuates around 0.45–0.55, demonstrating that the model has reached a convergence point. The overall trend of decreasing loss with minor oscillations suggests successful fine-tuning with no signs of overfitting or underfitting.
-   ![Line chart displaying the gradient norm of the StudyAbroadGPT-7B model over 270 training steps. The curve begins above 1.4, then rapidly drops and stabilizes between 0.4 and 0.6, showing stable gradient updates throughout training.](Report_P100/train/grad_norm_Chart.png)
+   
+  ![Line chart displaying the gradient norm of the StudyAbroadGPT-7B model over 270 training steps. The curve begins above 1.4, then rapidly drops and stabilizes between 0.4 and 0.6, showing stable gradient updates throughout training.](Report_P100/train/grad_norm_Chart.png)
      The Gradient Norm Chart illustrates the norm of the gradients during training. The chart shows an initially high gradient norm above 1.4, which sharply drops in the early stages of training. After approximately 30–50 steps, the gradient norm stabilizes between 0.4 and 0.6, with minor fluctuations throughout the training steps. This smooth decline and eventual stabilization imply that the training process maintained numerical stability, and gradient updates remained within a healthy range, preventing issues like vanishing or exploding gradients.
    - Response Quality:
      * Content Accuracy: 85%
