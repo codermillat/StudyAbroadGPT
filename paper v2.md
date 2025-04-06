@@ -559,10 +559,14 @@ Phase-wise performance analysis revealed progressive improvements:
      * Loss Stability: < 2% variation
      * Batch Processing: 142 steps/epoch
      * Format Accuracy: 95%
+     
      ![Line chart showing training loss vs. global training steps for StudyAbroadGPT-7B-continued. The loss begins around 0.43, decreases slightly, increases to above 0.5 around step 70, then drops and stabilizes around 0.31 with minor fluctuations.](Report_T4/train/Loss_Chart.png)
-     This chart illustrates the training loss over time during the fine-tuning of the StudyAbroadGPT-7B model. The x-axis represents the global training steps, and the y-axis shows the corresponding loss values. The loss initially decreases, followed by a gradual increase, and then stabilizes with fluctuations toward the end of training, suggesting a balance between underfitting and overfitting was achieved.
+
+      This chart illustrates the training loss over time during the fine-tuning of the StudyAbroadGPT-7B model. The x-axis represents the global training steps, and the y-axis shows the corresponding loss values. The loss initially decreases, followed by a gradual increase, and then stabilizes with fluctuations toward the end of training, suggesting a balance between underfitting and overfitting was achieved.
+
      ![Line chart of gradient norm vs. global training steps for StudyAbroadGPT-7B-continued. The gradient norm fluctuates between 0.3 and 0.4, with one prominent spike above 1 around step 70, followed by a return to stable values.](Report_T4/train/grad_norm_Chart.png)
-     This chart depicts the gradient norm values across training steps for the StudyAbroadGPT-7B-continued model. The gradient norm remains mostly stable between 0.3 and 0.4, with one noticeable spike slightly above 1 near step 70. This spike indicates a momentary increase in update magnitude, but the model quickly returns to stability, showing controlled training dynamics.
+
+      This chart depicts the gradient norm values across training steps for the StudyAbroadGPT-7B-continued model. The gradient norm remains mostly stable between 0.3 and 0.4, with one noticeable spike slightly above 1 near step 70. This spike indicates a momentary increase in update magnitude, but the model quickly returns to stability, showing controlled training dynamics.
 
    - Enhanced Quality:
      * Content Accuracy: 92%
