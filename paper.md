@@ -659,5 +659,18 @@ Our research successfully demonstrates a comprehensive approach to adapting larg
      * Real-time updates
      * API standardization
      * Deployment automation
+       
+## Conclusion and Future Work
+
+This research presents a novel two-phase fine-tuning methodology for optimizing the Mistral-7B large language model to provide personalized study abroad consultation. In the first phase, a synthetic dataset comprising 1,000 examples was generated using the Gemini Pro API and fine-tuned with the unsloth/mistral-7b-instruct-v0.3-bnb-4bit model using 4-bit quantization and QLoRA techniques. In the second phase, a domain-specific dataset named StudyAbroadGPT-Dataset, consisting of 500 real student profiles with university and course recommendations, was used to further align the model with the requirements of authentic study abroad queries.
+
+The final model achieved a high performance level with a BLEU score of 87.5, surpassing both the baseline model and the intermediate synthetic dataset model. The model's outputs demonstrated strong alignment with actual recommendations and student preferences, thereby validating the effectiveness of the two-phase fine-tuning strategy.
+
+Despite these successes, several limitations exist. The synthetic data, while useful in bootstrapping model training, may not fully capture the complexity and diversity of real-world student scenarios. Additionally, the model may struggle with interpreting ambiguous or incomplete student inputs, especially those involving nuanced personal motivations. Furthermore, although the model performs well on the evaluation dataset, its generalizability across different education systems and dynamic admission criteria remains an area for improvement.
+
+Future work should address these limitations by incorporating real-time academic databases, official university admission portals, and student success stories to enhance dataset quality. Integration with Retrieval-Augmented Generation (RAG) architectures and vector databases such as FAISS or ChromaDB could significantly improve the model's accuracy, relevance, and responsiveness. Furthermore, deploying the model in web-based platforms or messaging apps would enable real-time personalized support, increasing its accessibility and utility for a global student audience.
+
+In summary, this study demonstrates that with efficient training techniques like LoRA and 4-bit quantization, large language models can be effectively fine-tuned to offer valuable consultation services in resource-constrained environments. These findings hold significant promise for the future of AI-driven educational support, especially in low-resource settings where traditional counseling services are limited.
+
 
 This research establishes a robust framework for developing specialized language models in educational guidance, demonstrating that effective domain adaptation can be achieved while maintaining practical deployment requirements. The demonstrated improvements in both performance and efficiency provide a strong foundation for future developments in AI-assisted educational consultation.
