@@ -617,7 +617,7 @@ The model demonstrated robust capabilities in:
 
 This research presents a robust and resource-efficient framework for fine-tuning large language models to deliver personalized study abroad consultation. By employing a novel **two-phase training strategy**, we adapted the Mistral-7B model using a combination of synthetic and real-world domain-specific datasets, along with LoRA and 4-bit quantization techniques, to meet the practical needs of students seeking international education opportunities.
 
-In **Phase 1**, we generated 1,000 synthetic examples using the Gemini Pro API and performed initial training on the `unsloth/mistral-7b-instruct-v0.3-bnb-4bit` model, achieving a rapid 52.7% loss reduction on a P100 GPU. In **Phase 2**, we further aligned the model using a curated dataset of 500 real student profiles, enhancing response specificity and contextual accuracy. This dual-phase approach, supported by low-rank adaptation and quantized fine-tuning, proved to be highly effective, culminating in a final **BLEU score of 87.5** and **92% domain-specific accuracy**.
+In **Phase 1**, we generated 2,274 synthetic examples via the Gemini Pro API and conducted initial fine‑tuning on the `unsloth/mistral-7b-instruct-v0.3-bnb-4bit` model, achieving a rapid 52.7% reduction in training loss on a single NVIDIA P100 GPU. In **Phase 2**, we continued alignment using the same set of 2,274 Gemini‑Pro–generated examples—this second pass refined the model’s ability to produce highly specific, contextually accurate responses. Leveraging low‑rank adaptation alongside 4‑bit quantized fine‑tuning throughout both phases, our approach delivered a final BLEU score of **87.5** and **92%** domain‑specific accuracy.
 
 ### Key Achievements
 
