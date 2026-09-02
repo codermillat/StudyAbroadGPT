@@ -176,4 +176,6 @@ If you use this work, please cite the v4 paper:
 
 ## Author
 
-Md Millat Hosen · [ORCID 0009-0005-7198-9893](https://orcid.org/0009-0005-7198-9893)
+[Author info redacted in the v5-bea-supplementary release. The camera-ready and arXiv v5 updates include:]
+
+> Md Millat Hosen · [ORCID 0009-0005-7198-9893](https://orcid.org/0009-0005-7198-9893)

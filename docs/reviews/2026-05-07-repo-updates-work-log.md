@@ -147,6 +147,8 @@ All point to:
 - arXiv:2504.15610 (research paper)
 - LoRA Paper workspace (evaluation companion)
 - ORCID:0009-0005-7198-9893 (author)
+
+  *Note: this work log preserves the author ORCID for post-publication attribution. The supplementary released for the v5 workshop submission should redact this line. The corresponding de-anonymized reference is in `CHANGELOG.md` and the v5 venue memo at `docs/decisions/2026-09-02-v5-venue.md`.*
 ```
 
 ### 5. Git Commits and Pushes

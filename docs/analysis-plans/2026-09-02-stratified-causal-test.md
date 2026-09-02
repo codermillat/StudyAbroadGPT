@@ -2,7 +2,7 @@
 
 > **Status:** PRE-REGISTERED. Frozen on 2026-09-02. Do not edit after this date unless an explicit amendment is added at the bottom. Any deviation from this plan in the v5 manuscript must be reported and justified.
 
-**Owner:** Md Millat Hosen
+**Owner:** [Anonymized for double-blind; see CHANGELOG.md for the de-anonymized post-publication version]
 **arXiv ID of source paper:** 2504.15610 (v4; this is the v5 plan)
 **Target venue:** NAACL 2027 BEA Workshop (primary); EMNLP 2027 Findings (fallback)
 **Companion paper sections:** v4 §4.3.1 (source-verified factuality audit), v4 §4.4 (training-data audit), v4 §5.3 item (ii')
