@@ -2,6 +2,9 @@
 
 % Packages for formatting, graphics, and links
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{microtype}
 \usepackage{geometry}
 \geometry{margin=1in}
 \usepackage{graphicx}
@@ -10,6 +13,8 @@
 \usepackage{float}
 \usepackage{url}
 \usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
 
 % ===== Anonymization for double-blind review =====
 % Author block and ORCID removed; see supplementary for the full v4 author info.
@@ -93,15 +98,15 @@ On the 50-prompt held-out set, the judge assigned different domain-accuracy scor
 
 \begin{table}[H]\centering
 \caption{Source-verified factual errors: LoRA vs.\ base on the same prompts. Verdicts cite authoritative external sources.}\label{tab:factuality}
-\begin{tabular}{p{2.2cm}p{4.5cm}p{4.7cm}}
+\begin{tabularx}{\textwidth}{lXX}
 \hline\textbf{Topic} & \textbf{LoRA (incorrect)} & \textbf{Base (correct)} \\
 \hline
 Harvard Medical School testing & States HMS ``requires all applicants to submit GRE scores.'' & States HMS requires the MCAT, not the GRE. \\
-Australian healthcare & States students are ``eligible for Medicare after \ldots at least six months.'' & States international students are not eligible; OSHC compulsory. \\
+Australian healthcare & States students are ``eligible for Medicare after at least six months.'' & States international students are not eligible; OSHC is compulsory. \\
 ``Bachelor of Medicine at Stanford'' & Elaborates admission steps for a program that does not exist. & States Stanford offers no direct undergraduate medicine degree. \\
 Brazil$\rightarrow$Bangladesh scholarships & Lists named scholarships not established to exist. & States such scholarships are not common; offers honest alternatives. \\
 \hline
-\end{tabular}
+\end{tabularx}
 \end{table}
 
 Reference-based metrics at 512 tokens (Table~\ref{tab:std-metrics}) show the LoRA model scoring \emph{higher} than the base on similarity to the \emph{synthetic} references: SacreBLEU $+3.34$, ROUGE-L F1 $+0.019$ [$+0.010,\,+0.028$], BERTScore F1 $+0.063$ [$+0.047,\,+0.078$]. The Wilson 95\% CI for the BERTScore F1 difference excludes zero. These are fidelity-to-the-synthetic-distribution signals, not ground-truth quality. The two findings are consistent once read correctly: moving toward a distribution that contains fluent but unverified advice lowers reliability on the very topics where the LLM-judge and source-verified audit favor base.
@@ -212,6 +217,21 @@ T. Zhang, V. Kishore, F. Wu, K.~Q. Weinberger, and Y. Artzi, ``BERTScore: Evalua
 
 \bibitem{ji2023}
 Z. Ji et al., ``Survey of Hallucination in Natural Language Generation,'' \textit{ACM Computing Surveys}, vol.~55, no.~12, pp.~1--38, 2023.
+
+\bibitem{li2023}
+J. Li, X. Cheng, W. X. Zhao, J.-Y. Nie, and J.-R. Wen, ``HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models,'' in \textit{Proc.\ ACL}, 2023.
+
+\bibitem{min2023}
+S. Min, K. Gururangan, E. Wallace, H. Hajishirzi, N. A. Smith, and M. Zettlemoyer, ``FActScore: Fine-grained Atomic Evaluation of Factual Precision for Long Form Question Answering,'' in \textit{Proc.\ EMNLP}, 2023.
+
+\bibitem{vu2023}
+T. Vu, M. Iyyer, X. Wang, N. Constant, J. Wei, J. Wei, C. Tar, Y.-H. Sung, D. Zhou, Q. V. Le, and T. Luong, ``FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation,'' \textit{arXiv:2310.03214}, 2023.
+
+\bibitem{lewis2020}
+P. Lewis et al., ``Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks,'' in \textit{Advances in Neural Information Processing Systems (NeurIPS)}, 2020.
+
+\bibitem{gao2024}
+Y. Gao et al., ``Retrieval-Augmented Generation for Large Language Models: A Survey,'' \textit{arXiv:2312.10997}, 2024.
 
 \end{thebibliography}
 
