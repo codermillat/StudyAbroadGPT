@@ -13,6 +13,8 @@ Thumbs.db
 .obsidian.cache
 .vscode/
 .idea/
+.agents/
+.claude/
 *.swp
 *.swo
 *~
@@ -95,9 +97,38 @@ LoRA_Paper/
 scratch/
 tmp/
 .claude/
+# study-abroad-dataset/ is a local clone of the dataset-generation repo
+# (codermillat/study-abroad-dataset). It has its own .git/ inside and is
+# not registered as a submodule in this parent repo. Kept as a local
+# working copy; not tracked here.
+study-abroad-dataset/
 
 # ---------- Backups / temp files ----------
 *.tmp
 *.bak
 *.orig
 *.rej
+
+# ---------- LaTeX build artifacts ----------
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.run.xml
+
+# Compiled PDFs in paper/ (the .tex sources are tracked; PDFs are
+# generated artifacts reviewers can re-typeset from the .tex).
+paper/*.pdf
