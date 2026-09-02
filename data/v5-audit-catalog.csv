@@ -1,0 +1,756 @@
+training_id,first_user_turn,first_assistant_turn,keyword_match,label,source_url,notes,source
+1d7bf3c26cb51b36,How can I get a full scholarship for studying MBA in USA?,"## Introduction
+
+Embarking on an MBA in the USA can be a transformative experience. However, the financial burden can be daunting. Fortunately, there are opportunities to secure full scholarships. Here are four key strategies:
+
+- **Exceptional Academic Credentials:** Maintain a high GPA, excel in standardized tests (GMAT/GRE), and demonstrate a strong academic foundation. This is important because it showcases your intellectual capabilities and potential for success in a rigorous MBA program.
+
+- **Strong Work Experience:** Accumulate relevant work experience in a competitive field. Quantify yo...",,verified_correct,https://www.usnews.com/best-graduate-schools/top-business-schools/mba-rankings,"Generic MBA scholarship advice (GPA, GMAT/GRE, work experience) with no specific falsifiable claim.",v5_audit_subagent
+920a0464c0d315b7,What student clubs and organizations are popular at MIT?,"## Introduction
+Understanding the student clubs and organizations at MIT is crucial for prospective international students seeking a vibrant and enriching campus experience. This guide highlights key student groups that cater to diverse interests, foster community, and enhance personal and professional growth.
+
+## Main Content
+
+### Academic Enrichment and Research
+**MIT's vibrant academic culture is reflected in its numerous student clubs and organizations.** This is important because it provides students with opportunities to engage in research, collaborate on projects, and explore their acad...",,verified_correct,,Generic description of MIT student clubs without named organizations or specific falsifiable claims.,v5_audit_subagent
+5631ddebfbf71e1e,What health insurance do I need as a student in USA?,"## Health Insurance for International Students in the USA
+
+As an international student in the USA, obtaining comprehensive health insurance is crucial for your well-being and financial security.
+
+## Types of Health Insurance Available
+
+* **Student Health Insurance Plan (SHIP):** Provided by universities, SHIPs offer basic coverage at a reasonable cost.
+   - The reason for this is that SHIPs are specifically designed for international students and typically cover essential medical services.
+   - For example, the University of California, Berkeley's SHIP includes coverage for doctor's visits, ho...",,verified_wrong,https://uhs.berkeley.edu/ship,"Assistant claims SHIPs offer 'basic coverage at a reasonable cost' and that UC Berkeley SHIP covers 'doctor's visits' and similar. Berkeley's official page states: 'Berkeley SHIP is a comprehensive major medical insurance plan, providing medical, counseling, prescription, vision and dental services.' Calling it 'basic' contradicts the source's 'comprehensive' characterization.",v5_audit_subagent
+1fc3defbfdc568ec,What cultural programs are available at Stanford for Nepali students?,"## Introduction
+Stanford University offers a rich tapestry of cultural programs tailored specifically to the needs of Nepali students. These programs are designed to foster a sense of belonging, provide a platform for cultural exchange, and promote academic and personal growth.
+
+## Cultural Programs and Their Benefits
+### Nepali Student Association (NSA)
+* The NSA is a vibrant student-led organization that provides a welcoming community for Nepali students at Stanford.
+* This is important because it helps Nepali students adjust to the new environment, make friends, and stay connected to their ...",,verified_correct,https://theorg.com/org/medeloop/org-chart/avi-udash,"Assistant references a 'Nepali Student Association (NSA)' at Stanford. Confirmed: a Stanford Nepali Student Association exists and has documented officers (e.g., VP Avi Udash, 2024). The claim is correct.",v5_audit_subagent
+c4cc1d6bc78b62d2,What documents do I need to rent in USA?,"## Introduction
+
+Renting in the United States as an international student requires specific documentation to secure accommodation. This process involves gathering essential documents that demonstrate your identity, financial stability, and eligibility to rent.
+
+## Critical Documents
+
+### Proof of Identity
+This is important because it establishes your identity and verifies your legal status.
+**Required documents:**
+* Passport
+* Visa
+* Driver's license or state ID
+
+### Proof of Enrollment
+This is important because it confirms your student status, which may qualify you for student housing or disc...",,verified_correct,,"Generic document list (passport, visa, driver's license/state ID, proof of enrollment) is standard rental advice in the US.",v5_audit_subagent
+52aad2a24e2bedb6,Are there affordable healthcare options for Bangladeshi students in USA?,"## Introduction
+Bangladeshi students seeking to study abroad in the USA may face concerns about accessing affordable healthcare. However, there are several options available to ensure their well-being while pursuing their education.
+
+## Main Content
+
+### University Health Plans
+* **Statement:** Many universities in the USA offer comprehensive health insurance plans specifically designed for international students.
+* **Reasoning:** This is important because it provides students with access to essential medical services at a reduced cost.
+* **Supporting Evidence:** For example, the University of...",,verified_correct,https://uhs.berkeley.edu/ship,Generic advice about university health insurance plans for international students; the underlying claim that universities offer such plans is correct (per Berkeley SHIP and equivalent pages).,v5_audit_subagent
+e20f53db61aa0b72,Which universities in USA are best for Law?,"## Introduction
+Understanding the best law schools in the United States is crucial for prospective students seeking a top-notch legal education. Here are the key factors to consider:
+
+## Main Content
+### Academic Reputation and Rankings
+**This is important because:** A university's reputation and rankings indicate the quality of its faculty, curriculum, and overall academic standing.
+
+**Evidence & Examples:**
+* **Yale Law School** consistently ranks among the top 3 law schools in the US, according to U.S. News & World Report.
+* **Harvard Law School** is renowned for its prestigious alumni and ...",,verified_correct,https://www.usnews.com/best-graduate-schools/top-law-schools/law-rankings,"Claim that 'Yale Law School consistently ranks among the top 3 law schools in the US, according to U.S. News & World Report' is well-established and accurate (Yale is typically #1).",v5_audit_subagent
+2702965dc582491b,"What is the cost of living for students in London, USA?","## Cost of Living for Students in London, USA
+
+### Introduction
+
+Understanding the cost of living in London, USA, is crucial for students planning to study abroad. This information empowers them to budget effectively, avoid financial surprises, and focus on their academic pursuits without undue financial stress.
+
+### Accommodation
+
+* **Rent:** The average monthly rent for a one-bedroom apartment in London, USA, ranges from $800 to $1,200. This is important because it significantly impacts students' overall living expenses.
+* **Utilities:** Basic utilities such as electricity, gas, and water ca...",,verified_wrong,https://en.wikipedia.org/wiki/London,"Question premise 'London, USA' is false: London is a city in England/UK. The only US places named London are tiny towns (London, Ohio is the Madison County seat with population ~10k; London, Kentucky is the Laurel County seat with population ~8k) - none are study-abroad destinations. The assistant provides specific one-bedroom rent figures of $800-$1,200 for 'London, USA' without flagging the false premise. These figures don't match any 'London' in the US (where rent would be far lower) or London, UK (where rent would be far higher).",v5_audit_subagent
+55771205e431df06,What are the career opportunities for Nepali students in USA after graduation?,"## Introduction
+Nepali students pursuing higher education in the USA have ample career opportunities after graduation. These opportunities span various industries, leveraging their skills and qualifications.
+
+## Career Opportunities
+**1. Technology and Software Development**
+* This is important because the US is a global leader in technology and innovation.
+* Nepali students with degrees in computer science, engineering, or related fields are in high demand.
+* Example: According to the National Science Foundation, the median salary for software engineers in the US is over $100,000 annually.
+
+*...",,verified_correct,https://ncses.nsf.gov/pubs/nsf25321/assets/data-tables/tables/nsf25321-tab073-002.pdf,"Assistant claims 'According to the National Science Foundation, the median salary for software engineers in the US is over $100,000 annually.' Per NSF 25-321 (2023 Survey of Doctorate Recipients), the median annual salary for Computer and information scientists is $176,000-$185,000. NSF does publish these statistics, and the 'over $100,000' figure is true (and conservative). The attribution is correct.",v5_audit_subagent
+55b51556b7faf9bf,What medical coverage is provided by universities in USA?,"## Introduction
+**What Medical Coverage is Provided by Universities in the USA?**
+
+As an international student studying in the USA, understanding the medical coverage provided by your university is crucial for your well-being. This response will provide a comprehensive overview of the medical coverage offered by universities in the USA, highlighting its importance and providing specific examples.
+
+## Main Content
+
+### University Health Plans
+Most universities in the USA offer comprehensive health plans to their students, both domestic and international. These plans typically cover a wide range...",,verified_correct,https://uhs.berkeley.edu/ship,Generic description of US university health plans; claim that 'most universities offer comprehensive health plans' aligns with Berkeley SHIP ('comprehensive major medical insurance plan') and similar plans at other universities.,v5_audit_subagent
+b681594e17263643,Which MS in Computer Science specializations have the best job market in USA?,"## Introduction
+
+Choosing a specialization for your MS in Computer Science is crucial for your future career prospects. The job market in the USA offers a wide range of opportunities, but some specializations are consistently in high demand. Here are three specializations with excellent job prospects:
+
+* Data Science
+* Machine Learning
+* Artificial Intelligence
+
+## Main Content
+
+### Data Science
+
+**Clear statement:** Data Science is a rapidly growing field, driven by the explosion of data in every industry.
+
+**Reasoning explanation:** The vast amounts of data generated by businesses, organizat...","MS in, MS in, GRE, required, healthcare, according to, %, survey",verified_correct,,"Lists Data Science, Machine Learning, and AI as top MS CS specializations - generic market advice with no specific falsifiable claim.",v5_audit_subagent
+660f2c228c8c3a59,Which universities offer top programs in Computer Science for Indian students?,"## Introduction
+In today's competitive job market, a degree in Computer Science opens doors to lucrative careers in tech and beyond. Indian students seeking a world-class education in this field can choose from several prestigious universities offering exceptional programs.
+
+## Main Content
+### Top-Ranked Universities with Strong CS Programs
+- **Massachusetts Institute of Technology (MIT)**: MIT consistently ranks among the top universities globally for Computer Science. Its renowned program emphasizes hands-on experience, fostering innovation and problem-solving skills.
+- **Stanford Universit...","MS in, GRE, funding",verified_correct,,"Generic list of top CS universities (MIT, Stanford, etc.) - all are legitimate top-ranked CS programs per US News / QS rankings.",v5_audit_subagent
+6d866d9c5e62edcf,Tell me about internship opportunities for international students in USA,"## Introduction
+Internship opportunities for international students in the USA can provide valuable experience and career advancement. These opportunities allow students to gain practical skills, build professional networks, and explore potential career paths.
+
+## Main Content
+
+### Eligibility Requirements
+* **This is important because** it ensures that students meet the criteria for participating in internships in the USA.
+* **Eligibility requirements may vary** depending on the university, program, and visa type. For example, students on an F-1 visa must maintain a full-time academic load an...","eligibility, visa, F-1, OPT, according to, study, %, report, in 20",verified_correct,https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors,Generic F-1 visa internship eligibility description. USCIS confirms F-1 is the 'Academic students' category; full-time enrollment is a real F-1 requirement.,v5_audit_subagent
+824c136e459c2d55,How can I get a full scholarship for studying PhD in USA?,"## Introduction
+To secure a full scholarship for a PhD in the USA, meticulous planning and a comprehensive approach are essential. This involves excelling academically, building a strong research profile, and showcasing exceptional leadership qualities.
+
+## Main Content
+
+### Academic Excellence
+* **This is important because:** It establishes your intellectual capabilities and potential for academic success.
+* **Reasoning explanation:** PhD programs seek candidates with a proven track record of academic achievement, as it indicates their ability to conduct rigorous research and contribute to th...","PhD in, scholarship, study, PhD in, scholarship, funding, according to, study, %",verified_correct,,Generic PhD scholarship strategy advice without specific falsifiable claims.,v5_audit_subagent
+9a22c2ee3e5b744a,Tips for overcoming culture shock in USA?,"## Tips for Overcoming Culture Shock in the USA
+
+Culture shock, a common experience when adapting to a new country, can be challenging. Here are some strategies to help you overcome it in the USA:
+
+## Embrace Differences
+
+* **This is important because** accepting cultural differences fosters understanding and integration.
+* **The reason for this is** that recognizing the uniqueness of American culture enables you to appreciate its nuances and avoid misunderstandings.
+* **For example,** instead of being surprised by the informality of communication in the US, see it as a sign of openness and fr...","according to, study, %, report, survey",verified_correct,,Generic culture-shock coping advice; no specific falsifiable claim.,v5_audit_subagent
+f59004ca4880785a,What is the student visa process for USA?,"## Introduction
+Welcome! The student visa process for the USA can seem daunting, but it's essential to understand to ensure a successful study abroad journey. This comprehensive guide will cover the key steps, requirements, and timelines involved.
+
+## Main Content
+
+### Section 1: Eligibility and Application
+* **Eligibility:** To be eligible, you must be enrolled in a SEVP-certified institution, have financial support, and meet English language proficiency requirements. This is important because it ensures that you're attending a legitimate school and have the means to support yourself during y...","visa, student visa, MBA, GRE, fees, eligible, eligibility, required, visa, F-1, student visa, according to, study, studies, report, in 20, in 2022",verified_correct,https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors,Generic US student-visa process description. Mentions SEVP-certified institution and F-1 academic-student category - both confirmed by USCIS.,v5_audit_subagent
+edab70c4d94b7707,How to find affordable student accommodation in Toronto?,"## Introduction
+
+Finding affordable student accommodation in Toronto can be challenging due to the city's high cost of living. However, by following these key strategies, international students can secure a place to stay that meets their budget and needs.
+
+## Main Content
+
+### Section 1: Explore University Housing Options
+
+* **This is important because:** University housing often offers affordable rates and convenient locations.
+* **The reason for this is:** Universities typically negotiate bulk discounts with landlords and offer on-campus amenities like meal plans and laundry facilities.
+* **...",,verified_correct,,Generic strategies for finding affordable Toronto student housing; no specific falsifiable claim.,v5_audit_subagent
+df37fad8aed25292,How expensive is student accommodation in Toronto?,"## Introduction
+Student accommodation in Toronto can vary significantly in cost depending on several factors. Understanding these factors is crucial for planning your study abroad budget and ensuring you find suitable and affordable housing.
+
+## Main Content
+
+**1. Type of Accommodation**
+* **Reasoning:** The type of accommodation you choose plays a major role in determining the cost.
+* **Explanation:** On-campus housing, typically provided by universities, is often more expensive than off-campus options, but it offers convenience and amenities. Off-campus options include apartments, shared hou...",,verified_correct,,Generic Toronto student accommodation cost description without specific falsifiable numbers.,v5_audit_subagent
+8968339a7375b6fb,Tell me about internship opportunities for international students in Canada.,"## Introduction
+International students seeking internship opportunities in Canada have a wide range of options available to them. This is important because it allows students to gain practical experience and develop valuable skills while studying abroad. By participating in internships, students can also build their professional networks and increase their chances of finding employment in Canada after graduation.
+
+## Main Content
+
+### Types of Internships Available
+- **Co-op programs:** These are typically paid internships that are integrated into the student's academic program.
+- **Summer int...",,verified_correct,,"Generic description of Canadian internship types (co-op, summer internships); no specific falsifiable claim.",v5_audit_subagent
+2adc159d3b467366,Tell me about need-based financial aid options in Canada,"## Introduction
+Understanding need-based financial aid options in Canada is crucial for international students seeking affordable higher education. This guide will highlight three key points:
+
+* **Government-funded Programs:** These provide grants and loans to eligible students, reducing financial burdens.
+* **University Scholarships:** Many Canadian universities offer merit-based and need-based scholarships, providing additional funding.
+* **Private and External Funding:** External organizations and private donors also offer scholarships and grants to support students with financial need.
+
+##...","OPT, scholarship, tuition, cost of, funding, eligible, required, OPT, study, %, in 20, in 2022",verified_correct,,Generic need-based financial aid categories in Canada; no specific falsifiable claim.,v5_audit_subagent
+c3c3a82e0d0caff5,Do I need to take additional language courses in Canada?,"## Introduction
+
+International students who plan to study in Canada may wonder if taking additional language courses is necessary. The answer depends on several factors, including the student's proficiency in English or French, the program they intend to pursue, and the university they plan to attend.
+
+## Factors to Consider
+
+### English or French Proficiency
+
+**This is important because** it determines the student's ability to understand and communicate in the university environment. Most universities require a minimum level of English or French proficiency, as evidenced by standardized test ...","Master of, IELTS, TOEFL, study, studies",verified_correct,,Generic language-proficiency guidance for Canadian universities; mentions IELTS/TOEFL which are real accepted tests.,v5_audit_subagent
+c0cbb4c8e9b0315d,Best places for students to hang out in Toronto?,"## Introduction
+International students flock to Toronto for its vibrant student life and diverse culture. With countless hangouts and activities, Toronto offers something for every student. This guide will highlight the best places for students to hang out, ensuring an enriching and memorable study abroad experience.
+
+## Main Content
+
+### 1. University Campuses
+* **This is important because:** University campuses are the heart of student life, providing ample opportunities for socializing, studying, and extracurricular activities.
+* **Reasoning:** Campuses house student unions, libraries, cafe...","GRE, OPT, study, %, report",verified_correct,,"Generic Toronto student hangouts list (campuses, libraries, cafes, Kensington Market, etc.) - no specific falsifiable claim.",v5_audit_subagent
+493011455bf5ba43,Do I need to take additional language courses in UK?,"## Introduction
+The necessity of additional language courses during study abroad in the UK depends on several factors. This response will examine the English language proficiency requirements, the benefits of enhancing language skills, and the potential impact on academic success.
+
+## English Language Proficiency Requirements
+* **Clear statement:** International students must demonstrate English language proficiency to study in the UK.
+* **Reasoning explanation:** This is important because universities need to ensure that students have the necessary language skills to succeed in their studies....",,verified_correct,,Generic advice on English proficiency requirements; no specific falsifiable claim in the truncated response.,v5_audit_subagent
+a6c077735da676f0,How do I write a strong SOP for MS in Data Science at Oxford?,"## Introduction
+**Acknowledge the question:** To write a strong SOP for MS in Data Science at Oxford, you need to demonstrate your passion for the field, your research potential, and your alignment with the university's program.
+
+**Preview 3-4 key points:**
+* **Your research interests and how they align with Oxford's program:** This is important because it shows the admissions committee that you have a clear understanding of the program and its research focus.
+* **Your academic achievements and their relevance to the program:** This results in a strong application as it showcases your ability ...",,verified_correct,,Generic SOP-writing advice; no specific checkable claim in the truncated text.,v5_audit_subagent
+9d480694e1f994ec,How do I write a strong SOP for MS in Computer Science at Cambridge?,"## Introduction
+**Acknowledge the question:** How do I write a strong SOP for MS in Computer Science at Cambridge?
+
+**Preview 3-4 key points:**
+* **Highlighting academic achievements and research experience:** This is important because it showcases your ability to handle rigorous coursework and conduct independent research, essential for success in Cambridge's MS program.
+* **Demonstrating alignment with Cambridge's research interests:** This results in a stronger connection between your aspirations and the program, increasing your chances of admission.
+* **Articulating clear career goals and ...",,verified_correct,,Generic SOP advice for Cambridge; no specific checkable claim in the truncated text.,v5_audit_subagent
+d6a160f7d36e73fe,How does the healthcare system work for international students in UK?,"## Introduction
+International students studying in the UK benefit from a well-established healthcare system designed to cater to their needs. Understanding how the system works is crucial for ensuring their well-being and a successful study experience. Key aspects include access to healthcare, coverage, and costs.
+
+## Access to Healthcare
+* **NHS Registration:** International students are entitled to register with the National Health Service (NHS) for free healthcare. This includes primary care, emergency services, and hospital treatment.
+* **Reasoning:** NHS registration ensures timely access...",,verified_wrong,https://www.gov.uk/healthcare-immigration-application,Assistant claims international students get 'free healthcare' via NHS. GOV.UK states 'Most people need to pay the immigration health surcharge (IHS)' - healthcare is not free for international students.,v5_audit_subagent
+0c9de8ddd87bc4c3,What factors should I consider when choosing a university for Law?,"## Introduction
+When embarking on your law degree abroad, the choice of university plays a pivotal role in shaping your future career. Consider these crucial factors to make an informed decision:
+
+## Academic Reputation and Rankings
+**This is important because...** it reflects the quality of education and research conducted at the institution.
+**Example:** Oxford University and Yale Law School consistently rank among the top law schools globally, indicating their academic excellence.
+
+## Faculty Expertise and Specialization
+**The reason for this is...** expert faculty can provide specialized k...",,verified_correct,,Generic factors-when-choosing-a-university-for-Law advice with no specific falsifiable numeric/process claim.,v5_audit_subagent
+0bb530043585eada,Student discounts for transportation in UK?,"## Introduction
+Understanding student discounts for transportation in the UK is crucial for international students looking to explore the country and save money while studying abroad. This guide covers essential information on:
+
+* Railcards
+* Bus and coach discounts
+* Other transportation savings
+
+## Railcards
+Railcards are discounted train passes that offer significant savings on rail fares throughout the UK.
+
+### Importance:
+This is important because it allows students to travel extensively by train at a reduced cost.
+
+### Reasoning:
+The National Railcard costs £30 for one year and provides ...",,verified_wrong,https://www.railcard.co.uk/16-25-railcard,"Assistant claims 'The National Railcard costs £30 for one year.' The 16-25 Railcard (student card) is £35 for 1 year, and no single 'National Railcard' exists - there are 9 distinct Railcard types.",v5_audit_subagent
+54a61bed01979568,How long does it take to get a student visa for UK?,"## Introduction
+The duration of obtaining a student visa for the UK varies depending on factors such as nationality, application type, and the time of year. Understanding these factors is crucial for planning and ensuring a smooth visa application process.
+
+## Main Content
+
+### Application Processing Time
+**The average processing time for a student visa application is approximately 3 to 6 weeks.** This is important because it allows applicants to plan their travel arrangements and academic enrollment accordingly.
+
+### Peak Season Impact
+**During peak application periods, such as the summer mon...",,verified_wrong,https://www.gov.uk/student-visa,"Assistant claims 'approximately 3 to 6 weeks' processing. GOV.UK says '3 weeks, if you're outside the UK' and '8 weeks, if you're inside the UK' - the stated 3-6 week range is wrong on both bounds.",v5_audit_subagent
+7ff41f95a528609e,On-campus vs off-campus housing in London?,"## On-Campus vs Off-Campus Housing in London
+
+Choosing between on-campus and off-campus housing in London is a crucial decision that impacts your study abroad experience. Here are key factors to consider:
+
+## On-Campus Housing
+
+* **Convenience and Security:** On-campus housing provides proximity to classes, amenities, and security services. This is important because it simplifies your commute and ensures peace of mind.
+* **Socialization and Community:** Halls of residence on campus offer opportunities for socialization and community building. This results in a more immersive and connected expe...",,verified_correct,,Generic on-campus vs off-campus housing advice with no specific falsifiable claim in the truncated text.,v5_audit_subagent
+76942c3b84150f61,Tell me about need-based financial aid options in UK,"## Introduction
+**Understanding Need-Based Financial Aid Options in the UK**
+
+Need-based financial aid in the UK is designed to assist students from lower-income backgrounds to access higher education. This support is crucial for ensuring that all students have the opportunity to succeed in their studies, regardless of their financial circumstances.
+
+## Main Content
+
+### Government-Funded Support
+**Government-funded support is available to students who are UK nationals or have settled status.** This support includes:
+
+- **Student loans:** These loans cover tuition fees and living expenses, and...",,verified_correct,,Generic need-based financial aid description; the broad claim that support is restricted to UK nationals/settled status is correct for the main student-loan system.,v5_audit_subagent
+8e7ae2bc2ba11370,Research funding options for international students?,"## Introduction
+Research funding for international students is crucial for pursuing advanced degrees abroad. This funding not only reduces financial burdens but also enhances academic opportunities, research experiences, and professional development.
+
+## Main Content
+### University Fellowships and Scholarships
+This funding comes directly from universities and is highly competitive. The reason for this is that it provides full or partial tuition coverage, living expenses, health insurance, and other benefits. For example, the University of Oxford offers the Clarendon Fund Scholarship, which cov...",,verified_correct,https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon,"Clarendon Fund is real and 'offers over 200 new, fully-funded scholarships each year to outstanding graduate scholars' per Oxford's official page.",v5_audit_subagent
+b6045bb153ed08e1,How do I write a strong SOP for MS in Computer Science at Oxford?,"## Introduction
+In crafting a compelling SOP for the MS in Computer Science program at Oxford, it is crucial to highlight your academic qualifications, research experience, and aspirations that align with the program's objectives.
+
+## Main Content
+### Academic Qualifications and Research Experience
+* **Clear statement:** Emphasize your strong academic record, particularly in computer science and related fields. This is important because it demonstrates your foundational knowledge and ability to succeed in a rigorous graduate program.
+* **Reasoning explanation:** Admissions officers want to kno...",,verified_correct,,Generic SOP advice for Oxford MSc CS; no specific checkable claim in the truncated text. Oxford does offer an MSc in Computer Science.,v5_audit_subagent
+bc3cd97b419d1832,Can you explain the admission process for Oxford?,"## Introduction
+Understanding the admission process for Oxford is crucial for students aspiring to pursue higher education at one of the world's most prestigious universities. This response will provide a comprehensive guide to the key steps and considerations involved, highlighting their significance for successful applications.
+
+## Main Content
+### Eligibility Criteria
+* **High Academic Achievement:** Oxford expects applicants to have exceptional academic records, typically demonstrated through outstanding grades in A-levels, IB, or equivalent qualifications. This is important because it ens...","eligibility, study",verified_correct,,Generic Oxford admissions description; reference to A-levels/IB qualification is accurate.,v5_audit_subagent
+065217c29ad88985,Tips for overcoming culture shock in UK?,"## Introduction
+Studying abroad in the UK can be an enriching experience, but it can also come with challenges. Culture shock is common when encountering unfamiliar cultural norms and values. Understanding how to overcome it can help ensure a successful and enjoyable experience. Here are key tips to navigate culture shock:
+
+## Understanding Cultural Differences
+* **This is important because:** It helps identify and respect differences, reducing confusion and frustration.
+* **The reason for this is:** Cultural values shape communication styles, social interactions, and daily routines.
+* **For e...",study,verified_correct,,Generic culture-shock advice with no specific falsifiable claim.,v5_audit_subagent
+f9828c8226b63897,What scholarships are available for Bangladeshi students in UK?,"## Introduction
+**Bangladeshi students seeking to study in the United Kingdom have access to various scholarships.** These scholarships offer financial assistance, reducing the cost of tuition and living expenses.
+
+**Key Points:**
+
+* **Financial support:** Scholarships provide financial aid, making it possible for students from diverse backgrounds to access higher education in the UK.
+* **Academic excellence:** Scholarships recognize and reward academic achievement, encouraging students to strive for excellence.
+* **Cultural exchange:** Scholarships promote cultural exchange, fostering underst...","scholarship, GRE, scholarship, tuition, fees, cost of, eligibility, Chevening, Commonwealth, study, in 20, in 2023, in 2022",verified_correct,,"Mentions Chevening and Commonwealth scholarships, both of which are real UK scholarship programs available to Bangladeshi students. No specific falsifiable number in truncated text.",v5_audit_subagent
+d0c71042fced4722,What are typical student expenses in Uzbekistan?,"## Introduction
+Understanding student expenses in Uzbekistan is crucial for planning a study abroad experience. This guide outlines the typical costs associated with accommodation, food, transportation, and other expenses.
+
+## Main Content
+### Accommodation
+* **On-campus housing:** The most affordable option, typically ranging from $100-$200 per month.
+> This is important because it provides a convenient and cost-effective living arrangement.
+> **Example:** Tashkent State University of Economics offers on-campus dorms for international students at around $150 per month.
+
+* **Off-campus apartme...",,unclear,,Specific claim of '$150/month' dorm at Tashkent State University of Economics could not be verified - site is JS-rendered and returned no static pricing on attempted fetches.,v5_audit_subagent
+2978005719129e3f,How long does it take to get a student visa for Ukraine?,"## Introduction
+The time it takes to obtain a student visa for Ukraine varies depending on several factors. However, there are some general guidelines that can provide you with a good estimate.
+
+## Main Content
+
+### Application Process
+* **Clear statement:** The application process can be complex and requires careful attention to detail.
+* **Reasoning explanation:** Inaccurate or incomplete applications can result in delays or even rejection.
+* **Supporting evidence:** It takes an average of 2-3 weeks to gather all necessary documents and complete the application form.
+* **Specific example:** ...",,unclear,,Claim of 'average 2-3 weeks to gather all necessary documents' is generic document-prep timing rather than visa processing; the Ukraine visa situation is also in flux due to the war. Could not find a primary source to verify or contradict.,v5_audit_subagent
+bab5c27f772a7960,What scholarships are available for Pakistani students in Germany?,"## Introduction
+Pakistanis seeking higher education in Germany have access to a wide range of scholarships. These opportunities offer financial support and enhance academic excellence.
+
+## Major Scholarships
+### DAAD Scholarships
+* **Statement:** The German Academic Exchange Service (DAAD) provides scholarships for Pakistani students at all levels of study.
+* **Reasoning:** This is important because DAAD scholarships cover tuition fees, living expenses, and other academic costs.
+* **Evidence:** In 2022, DAAD awarded 150 scholarships to Pakistani students for master's and doctoral studies.
+* **...",,unclear,,"Claims DAAD awarded exactly 150 scholarships to Pakistani students in 2022. DAAD Pakistan office pages and DAAD.de were inaccessible during audit, so the specific number could not be verified against a primary source. Marked unclear rather than fabricating a verdict.",v5_audit_subagent
+78083cacf48c19b5,Tips for academic writing in German?,"## Introduction
+Understanding the nuances of academic writing in German is crucial for students pursuing studies abroad. This comprehensive guide will delve into essential tips to enhance your written communication skills in this language.
+
+## Main Content
+
+### 1. Master the Formal Style
+**This is important because:** Academic writing in German adheres to a formal and precise style.
+**Reasoning:** It conveys a sense of professionalism and clarity, ensuring your ideas are presented effectively.
+**Specific example:** In a paper submitted to the University of Hamburg, avoid colloquialisms like ""c...",,verified_correct,,"Generic advice about formal style, precision, citation practices in German academic writing. No specific falsifiable claims.",v5_audit_subagent
+d70593d74b81e581,How can I get a full scholarship for studying Masters in Germany?,"## Introduction
+**How to Secure a Full Scholarship for Masters Studies in Germany**
+
+This guide provides a comprehensive roadmap to help you achieve your goal of studying in Germany with financial support. By following these key points, you can significantly increase your chances of securing a full scholarship:
+
+* **Exceptional Academic Credentials:** Demonstrating academic excellence is crucial for scholarship consideration.
+* **Strong Research Experience:** Research experience and publications showcase your potential as a researcher.
+* **Relevant Work Experience:** Professional experience re...",,verified_correct,,"Generic advice on academic credentials, research experience, and applying for scholarships. No specific checkable claims.",v5_audit_subagent
+5fb92037a3da2749,Student discounts for transportation in Germany?,"## Introduction
+
+Understanding student transportation discounts in Germany is crucial for international students to optimize their travel expenses. This comprehensive guide outlines the key discounts available, their importance, and practical implications.
+
+## Main Content
+
+### Discounted Train Tickets
+
+* **Clear statement:** German Railways (Deutsche Bahn) offers various discounts for students, including a 50% reduction on long-distance trains and a 25% discount on regional trains.
+* **Reasoning explanation:** This discount helps students save significantly on transportation costs, allowing t...",,verified_wrong,https://int.bahn.de/en/offers/bahncard,"Claims 'Deutsche Bahn offers a 50% reduction on long-distance trains and a 25% discount on regional trains.' This reverses the actual BahnCard discount structure. Per bahn.de, the BahnCard 50 gives 50% off the FLEXIBLE fare and 25% off SAVER offers, all in LONG-DISTANCE transport. BahnCards do not provide a generic 25% discount on regional trains; regional trains use separate ticketing (Deutschlandticket, etc.).",v5_audit_subagent
+990e40eb08a8beda,What health insurance do I need as a student in Germany?,"## Introduction
+
+As a student studying in Germany, securing adequate health insurance is essential for your well-being and legal compliance. This comprehensive guide will provide you with the necessary information to navigate the German health insurance system and make informed decisions.
+
+## Main Content
+
+### Public Health Insurance
+
+**Statement:** Public health insurance in Germany offers comprehensive coverage and is mandatory for students who are residents of Germany and enrolled in a public university.
+**Reasoning:** This is important because it ensures that students have access to afford...",,verified_correct,,States public health insurance is mandatory for enrolled students. This is correct: §5 SGB V requires health insurance for enrollment at all German state-recognized universities. Generic on coverage details.,v5_audit_subagent
+7813e0001707e3ac,Best places for students to hang out in Berlin?,"## Introduction
+As an expert study abroad consultant, I am pleased to provide a comprehensive guide to the best places for students to hang out in Berlin. This vibrant city offers a diverse range of attractions and activities, ensuring an unforgettable experience for international students.
+
+## Main Content
+
+### Museums and Cultural Institutions
+**This is important because:** Museums and cultural institutions offer students the opportunity to delve into Berlin's rich history and vibrant art scene.
+**Reasoning:** Berlin is home to world-renowned museums such as the Pergamon Museum and the Neues...",,verified_correct,,"Generic recommendations of Berlin cultural venues (Pergamon, Neues Museum, etc.). These are real, well-known institutions. No specific checkable claims.",v5_audit_subagent
+1cb40553bbbd307a,How can I improve my French before studying in Germany?,"## Introduction
+Studying in Germany while improving your French language skills may seem challenging, but with the right strategies, it's certainly achievable. This comprehensive guide will provide you with effective methods to enhance your French proficiency before embarking on your academic journey in Germany.
+
+## Main Content
+### Immersive Language Learning
+**Immerse yourself in the French language:** This is important because it exposes you to real-life language usage, improving your comprehension and fluency. Consider watching French films, listening to French music, or reading French lit...",,verified_correct,,"Generic advice on French-language immersion (films, music, reading). No specific checkable claims.",v5_audit_subagent
+1e29e81510f70e14,Do I need to take additional language courses in Germany?,"## Introduction
+
+Considering studying abroad in Germany? If so, you may be wondering whether you need to take additional language courses. The answer is: it depends.
+
+## Main Content
+
+### German Language Proficiency Requirements
+
+Most German universities require international students to demonstrate German language proficiency at a certain level. The required level varies depending on the university and program. For example:
+
+* The University of Freiburg requires a minimum of B2 level German proficiency for most undergraduate programs.
+* The Technical University of Munich requires a minimum of...",,verified_wrong,https://uni-freiburg.de/en/studies/applying/international-applicants/full-time-studies/,"Assistant claims University of Freiburg requires 'a minimum of B2 level German proficiency for most undergraduate programs.' Per uni-freiburg.de, bachelor's programs require DSH-2 (or TestDaF 4/5) which corresponds to C1, not B2. B2 is the threshold for DSH-1 (an open-admission *application* document) but the *enrollment* requirement is C1. The claim systematically under-states the requirement.",v5_audit_subagent
+8542213e0ac402bf,Which universities in Germany are best for Computer Science?,"## Introduction
+When choosing a university for Computer Science in Germany, consider factors such as research strength, industry partnerships, and international recognition. This decision is crucial as it can significantly impact your career prospects and academic experience.
+
+## Main Content
+
+### Research Strength and Innovation
+* **This is important because:** Universities with strong research programs provide access to cutting-edge technologies and research opportunities.
+* **This results in:** Students graduating from these institutions are highly sought after by industry leaders.
+* **Supp...",,verified_correct,,"Generic advice on choosing CS universities (research strength, industry partnerships, location, language). No specific falsifiable claims.",v5_audit_subagent
+eafa578437301778,What cultural differences should I prepare for in EU?,"## Introduction
+When preparing for study abroad in the European Union (EU), it is crucial to be aware of the cultural differences that may impact your experience. Understanding these variances will help you navigate social interactions, academic expectations, and daily life effectively.
+
+## Main Content
+
+### Communication Styles
+* **Clear statement:** Communication styles vary significantly across EU countries.
+* **Reasoning:** The reason for this is rooted in cultural norms and values.
+* **Supporting evidence:** For instance, in Germany, direct and assertive communication is common, while in ...",,verified_correct,,Generic cultural advice on EU communication styles. No specific falsifiable claims.,v5_audit_subagent
+75a3f3789a837255,Tips for overcoming culture shock in Germany?,"## Introduction
+Understanding the nuances of a foreign culture can be daunting, and Germany is no exception. Culture shock is a common experience for international students, but it can be overcome with the right strategies. Here are some crucial tips for navigating cultural differences and immersing yourself in German society:
+
+## Main Content
+
+### 1. Research and Prepare Beforehand
+
+**This is important because:** Preparation empowers you to anticipate potential cultural differences and develop coping mechanisms.
+
+* **Reasoning:** Researching German history, customs, and social norms provides ...","DAAD, according to, study, report, survey",verified_correct,,"Generic advice on overcoming culture shock (preparation, language learning, social activities). No specific falsifiable claims.",v5_audit_subagent
+e55997941c421edf,How much should I budget monthly for Berlin?,"## Introduction
+Determining a suitable monthly budget for studying abroad in Berlin is crucial for financial planning and ensuring a comfortable experience. Here are several key considerations:
+
+## Accommodation:
+- Average rent for a single room in a shared apartment: €500-€700
+- This is important because accommodation is typically the largest monthly expense.
+
+## Food:
+- Groceries for basic meals: €200-€300
+- Dining out at budget-friendly restaurants: €100-€150
+- This results in a total estimated food budget of €300-€450.
+
+## Transportation:
+- Monthly public transport pass: €80
+- Occasional t...","budget, cost of, budget, OPT, health insurance, according to, study, report",verified_correct,,"Berlin monthly budget estimates (rent €500-700, groceries €200-300, transit pass ~€80). These are reasonable ballpark figures within the typical range cited by Studierendenwerke and DAAD; not contradicted by any specific primary source. The transport-pass figure predates the €49 Deutschlandticket but the BVG/ABC-zone monthly is roughly correct.",v5_audit_subagent
+83eed417c7372867,Tell me about need-based financial aid options in Germany,"## Introduction
+Germany, renowned for its high-quality education and low tuition fees, offers a range of need-based financial aid options to international students. Understanding these options is crucial for students seeking financial assistance to pursue their studies in Germany.
+
+## Need-Based Financial Aid in Germany
+### Scholarships
+Germany offers numerous scholarships for international students based on academic merit, financial need, or specific backgrounds.
+- **Reasoning:** Scholarships provide significant financial support, reducing the overall cost of education.
+- **Example:** The DAA...","OPT, scholarship, tuition, fees, cost of, eligibility, OPT, health insurance, DAAD, studies",verified_correct,,"First instance of need-based aid question. Claims DAAD provides scholarships, grants, and interest-free loans. DAAD does provide scholarships and grants; the 'interest-free loans' phrasing is a stretch (DAAD primarily gives non-repayable scholarships) but the visible answer is otherwise generic advice.",v5_audit_subagent
+0f7735a8d7fedf88,What are the job prospects after MS in Computer Science in Germany?,"## Introduction
+Pursuing a Master's degree in Computer Science (CS) in Germany opens doors to a wide range of promising job prospects. The nation's strong economy, thriving tech industry, and emphasis on research and innovation contribute to the high demand for skilled CS professionals. Here are some key factors to consider:
+
+## Main Content
+
+### 1. Industry Growth and Demand
+The German tech industry is experiencing rapid growth, driven by the increasing adoption of digital technologies across various sectors. This has resulted in a surge in demand for qualified CS graduates, particularly in a...","MS in, MS in, GRE, OPT, DAAD, study, %",verified_correct,,"Generic advice on MS CS job prospects in Germany (industry growth, demand, work-life, work permit). No specific falsifiable claims.",v5_audit_subagent
+83eed417c7372867,Tell me about need-based financial aid options in Germany,"## Introduction
+Germany, renowned for its high-quality education and low tuition fees, offers a range of need-based financial aid options to international students. Understanding these options is crucial for students seeking financial assistance to pursue their studies in Germany.
+
+## Need-Based Financial Aid in Germany
+### Scholarships
+Germany offers numerous scholarships for international students based on academic merit, financial need, or specific backgrounds.
+- **Reasoning:** Scholarships provide significant financial support, reducing the overall cost of education.
+- **Example:** The DAA...","OPT, scholarship, tuition, fees, cost of, eligibility, OPT, health insurance, DAAD, studies",verified_correct,,Second instance of need-based aid question. Same generic content as first instance. Visible text is cut off but no specific checkable claim is contradicted.,v5_audit_subagent
+8fdc816f40735d8e,What scholarships are available for Nigerian students in Germany?,"## Introduction
+
+**Scholarships for Nigerian students in Germany:**
+
+## Main Content
+
+### Government-Funded Scholarships
+
+**DAAD Scholarships:**
+
+* The German Academic Exchange Service (DAAD) offers a wide range of scholarships for international students, including Nigerians.
+* These scholarships cover tuition fees, living expenses, and health insurance.
+* The DAAD scholarship application deadline is usually in March.
+
+**Example:** A Nigerian student, Adeola, received a DAAD scholarship to study Mechanical Engineering at the Technical University of Munich. This scholarship covered her tuition ...","scholarship, scholarship, tuition, fees, health insurance, DAAD, study, studies",verified_wrong,https://www.daad.org/en/2025/09/22/upcoming-daad-deadlines-for-2026-27/,"Assistant claims 'The DAAD scholarship application deadline is usually in March.' Per the DAAD Office New York's official 2026-27 deadlines list, the main DAAD Study-Scholarship and Research-Grants deadlines fall on 30-31 October and 10-30 November. The 'March' claim is wrong; the actual cycle is September-November of the year preceding enrollment.",v5_audit_subagent
+9928ab6073c3dbb8,How to get around as a student in Sydney?,"## Introduction
+As a student in Sydney, navigating the city efficiently is crucial for academic success and social well-being. Here are some key ways to get around:
+
+## Public Transportation
+* **Opal Card:** This is the most convenient and cost-effective way to use public transport. It offers discounts on fares and can be used on buses, trains, and ferries.
+* **Buses:** Sydney has an extensive bus network that covers most areas of the city. They are generally reliable and affordable.
+* **Trains:** The train system is efficient and connects major suburbs to the city center. This is important be...",,verified_correct,https://transportnsw.info/tickets-opal/opal,"Opal Card is the public transport ticketing system for Sydney, used on buses, trains, ferries, and light rail. Generic transport advice is otherwise correct.",v5_audit_subagent
+7a925a55d373ee86,Are there affordable healthcare options for Pakistani students in Australia?,"## Introduction
+Pakistani students studying in Australia have access to affordable healthcare options that protect their well-being while abroad. These options include:
+
+- Overseas Student Health Cover (OSHC)
+- Medicare
+- Private health insurance
+
+## Main Content
+
+### Overseas Student Health Cover (OSHC)
+OSHC is mandatory for all international students in Australia. It provides coverage for essential medical and hospital expenses, including:
+
+- Doctor's visits
+- Hospital stays
+- Ambulance services
+
+**This is important because** it ensures that students have access to necessary healthcare witho...",,verified_wrong,https://www.healthdirect.gov.au/what-is-medicare,"The answer lists 'Medicare' as a healthcare option for Pakistani students in Australia. Per healthdirect.gov.au, Medicare is for Australian/NZ citizens, permanent residents, or those covered by a Reciprocal Health Care Agreement. Australia has NO RHCA with Pakistan, and Subclass 500 student visa holders are not eligible for Medicare. International students must use OSHC (mandatory under visa condition 8501), not Medicare.",v5_audit_subagent
+babf12ea030f1941,Tips for overcoming culture shock in Australia?,"## Introduction
+Culture shock is a common experience for international students studying abroad in Australia. It can be characterized by feelings of disorientation, confusion, and even anxiety as students adjust to a new culture and way of life. However, there are a number of things students can do to overcome culture shock and make the most of their time in Australia.
+
+### Key Tips for Overcoming Culture Shock in Australia
+* **Be open to new experiences.** This is important because it will help you to adjust to the new culture and way of life. The reason for this is that when you are open to ...",,verified_correct,,"Generic advice about culture shock (be open, learn about the country, find community). No specific factual claims to verify or refute.",v5_audit_subagent
+87ff2bd2e692616a,How does the post-study work visa work in Australia?,"## Introduction
+Understanding the post-study work visa in Australia is crucial for international students seeking to extend their stay and gain valuable work experience. Here are key points to consider:
+
+- The Temporary Graduate Visa (Subclass 485) allows international students to work in Australia after completing a qualifying degree.
+- The duration of the visa varies based on the level of qualification and field of study.
+- The visa provides opportunities for professional development, career advancement, and potential pathways to permanent residency.
+
+## Eligibility Criteria
+- **Reasoning st...",,verified_correct,https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485,"Subclass 485 Temporary Graduate visa is correctly described as allowing international students to live, study and work after finishing studies. Duration does vary by stream (Graduate Work 18 months, Post-Study Work 2-4 years based on qualification level, Second Post-Study Work for regional graduates). The visible claim that duration varies by qualification level is correct.",v5_audit_subagent
+851bda2c7b0de8aa,Which MS in Data Science specializations have the best job market in Australia?,"## Introduction
+This question highlights the importance of choosing a specialization that aligns with the job market demands in Australia. By considering the following key points, international students can make informed decisions to enhance their career prospects:
+
+- **High demand for data science professionals:** The Australian job market has a growing demand for skilled data scientists, driven by the increasing use of data in various industries.
+- **Specializations with strong job prospects:** Certain specializations within data science offer better job market outcomes due to their alignmen...",,verified_correct,,Generic claims about 'high demand for data science professionals' and 'certain specializations have better job market outcomes' contain no specific falsifiable numbers or named programs.,v5_audit_subagent
+c281ef83084e9b10,Mental health resources for international students in Australia?,"## Introduction
+International students in Australia may experience mental health challenges due to factors such as cultural differences, language barriers, and academic pressures. Accessing mental health resources is crucial for their well-being and academic success.
+
+## Mental Health Support Services
+* **University Counseling Centers:** Most universities offer free or low-cost counseling services to students. This is important because it provides a safe and confidential space for students to discuss their concerns with trained professionals.
+* **Example:** The University of Melbourne's Counse...",health insurance,verified_correct,https://www.unimelb.edu.au/wellbeing/counselling,"Australian universities do offer free/low-cost counseling services to enrolled students. University of Melbourne's Counselling and Psychological Services is a real, official service. No specific falsifiable claims made.",v5_audit_subagent
+dd2fea8106ea71a1,"What is the cost of living for students in Toronto, Australia?","## Introduction
+
+Understanding the cost of living in Toronto, Canada, is crucial for international students. This information helps in budgeting, planning, and ensuring a comfortable study abroad experience. Here are key factors that influence the cost of living in Toronto:
+
+## Accommodation
+
+**Rent:** Toronto's rental market is highly competitive, with average rent for a one-bedroom apartment ranging from CAD 1,500 to CAD 2,500 per month. This is important because it significantly impacts a student's monthly expenses.
+
+**Example:** The University of Toronto estimates that off-campus housing c...","cost of, cost of, budget, required, OPT, health insurance, healthcare, study",unclear,,"Question premise is geographially wrong: 'Toronto, Australia' does not exist (Toronto is in Ontario, Canada). The assistant redirects to Toronto, Canada with CAD pricing (1BR CAD 1,500-2,500/month), which is plausibly within historical range but outside the AU/NZ audit scope. No verifiable Australia/NZ claim made.",v5_audit_subagent
+73bfbfebe468c11a,How does the healthcare system work for international students in Bangladesh?,"## Introduction
+International students in Bangladesh should be aware of the healthcare system to ensure access to quality medical care. This includes understanding the types of insurance available, the process for seeking medical attention, and the costs associated with healthcare.
+
+## Types of Insurance and Coverage
+### Public Health Insurance
+- Bangladesh provides free healthcare services to all citizens, including international students.
+- This is important because it ensures access to basic healthcare for students who may not be able to afford private insurance.
+
+### Private Health Insuran...",,verified_wrong,https://en.wikipedia.org/wiki/Health_in_Bangladesh,"The assistant claims 'Bangladesh provides free healthcare services to all citizens, including international students.' Bangladesh's public healthcare is intended for citizens; Bangladeshi universities (e.g., University of Dhaka, BUET) and the Bureau of Immigration require incoming international students to have private health insurance, and the public system is heavily subsidised only for nationals. The claim that international students are explicitly included in free public healthcare is not supported.",v5_audit_subagent
+25393ab1202c9748,What are the visa options for Bangladeshi students in India?,"## Introduction
+As an expert study abroad consultant, I understand the importance of navigating visa options for Bangladeshi students seeking higher education in India. Here are the key visa categories and their implications:
+
+## Main Content
+
+### Student Visa (X-2 Visa)
+**This is important because** it is the primary visa type for Bangladeshi students pursuing full-time academic programs in India.
+
+**The reason for this is:** It allows students to reside and study in India for the duration of their studies.
+
+**Supporting evidence:** The X-2 Visa is issued by the Indian Embassy or Consulate in...","visa, OPT, MS in, MBA, GRE, eligible, eligibility, visa, student visa, OPT, study, studies",verified_wrong,https://indianvisaonline.gov.in/visa/visa-category.html,"The assistant claims the 'X-2 Visa' is the primary visa type for Bangladeshi students in India. The official Government of India Bureau of Immigration portal (indianvisaonline.gov.in/visa/visa-category.html) lists the visa categories as: Business, Diplomatic, Work, Family, Journalist, Medical, Official, Pakistan Specific, Student, Tourist, Transit, and Miscellaneous. There is no 'X-2 Visa' category; the correct category for students is the regular 'Student Visa.' The X-2 designation is fabricated.",v5_audit_subagent
+b65c3f353c6703ae,Are there affordable healthcare options for Bangladeshi students in Bangladesh?,"## Introduction
+Bangladeshi students studying abroad often face concerns about affordable healthcare options. However, there are various accessible and affordable healthcare resources available to them.
+
+## Main Content
+
+### Public Healthcare System
+* **Statement:** Bangladeshi students can access free or low-cost healthcare through the public healthcare system.
+* **Reasoning:** This is important because it ensures access to essential healthcare services without financial burden.
+* **Supporting Evidence:** The government-funded National Health Service provides primary and secondary care servic...","OPT, healthcare, budget, OPT, health insurance, healthcare, study",verified_wrong,https://en.wikipedia.org/wiki/Health_in_Bangladesh,The assistant says 'The government-funded National Health Service provides primary and secondary care services' to Bangladeshi students. The 'National Health Service (NHS)' is a UK/UK-system term; Bangladesh does not have a system called the National Health Service. The country's public healthcare is run by the Ministry of Health and Family Welfare (MOHFW) and the Directorate General of Health Services (DGHS). Applying the UK 'NHS' label to Bangladesh is factually wrong.,v5_audit_subagent
+05a35d7a7d4095a1,What are the visa options for Pakistani students in Ukraine?,"## Introduction
+International students seeking higher education in Ukraine, including those from Pakistan, require a student visa to enter and reside in the country for the duration of their studies. This comprehensive guide outlines the available visa options and their requirements, highlighting their importance and providing specific examples.
+
+## Main Content
+
+### Type A Student Visa
+* **Statement:** Type A student visas are the most common option for Pakistani students seeking long-term study in Ukraine.
+* **Reasoning:** This is important because it allows students to reside in Ukraine for...","visa, OPT, MBA, GRE, required, visa, student visa, OPT, study, studies",verified_wrong,https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/visa-information,"The assistant claims 'Type A student visas are the most common option for Pakistani students seeking long-term study in Ukraine.' Under the Ukraine Law on the Legal Status of Foreigners and Stateless Persons, Ukrainian visas are categorised as: Type A (airport transit), Type B (transit), Type C (short-term, up to 90 days), and Type D (long-term, for study/work/residence). The student category is Type D, not Type A. Type A is an airport-transit visa only, not a study visa.",v5_audit_subagent
+15d2778e7f8bd6c5,Social activities and events for international students?,"## Social Activities and Events for International Students
+
+International students seeking a fulfilling study abroad experience should prioritize social activities and events. These interactions play a crucial role in the overall growth and success of students in their new environment.
+
+## Benefits of Social Activities
+
+* **Enhanced Cultural Exchange:** Social events provide opportunities for international students to interact with locals and other international students, fostering cultural understanding and breaking down stereotypes. This is important because it helps students adapt more easi...",,verified_correct,,Generic soft advice about social activities; no specific falsifiable claims.,v5_audit_subagent
+73f0ab67c39bcd36,What are the career opportunities for Nepali students in New Zealand after graduation?,"## Introduction
+Nepali students who graduate from New Zealand universities have a wide range of career opportunities available to them. This is due to the high quality of education in New Zealand, as well as the country's strong economy and diverse job market.
+
+## Key Career Opportunities
+### 1. Information Technology
+* New Zealand has a thriving IT sector, with a high demand for skilled workers.
+* The reason for this is that the country is a major hub for technology companies, such as Microsoft, Amazon, and Google.
+* This results in many opportunities for Nepali graduates with degrees in comp...",,verified_wrong,https://www.nzte.govt.nz/,"Claims New Zealand 'is a major hub for technology companies, such as Microsoft, Amazon, and Google.' This is materially incorrect; these firms have only small satellite offices in NZ.",v5_audit_subagent
+0841ec37676af518,On-campus vs off-campus housing in Boston?,"## On-Campus vs Off-Campus Housing in Boston
+
+### Introduction
+
+Choosing between on-campus and off-campus housing is a crucial decision for students studying abroad in Boston. This choice significantly impacts convenience, affordability, and overall experience. Here are some key factors to consider:
+
+### On-Campus Housing
+
+* **Convenience:** On-campus housing provides easy access to classes, academic resources, and student life activities. This is important because it saves time and eliminates transportation hassles.
+* **Community:** On-campus dorms and apartments offer a built-in community fo...",,verified_correct,,Generic pros/cons of on-campus vs off-campus housing in Boston; no specific checkable claims.,v5_audit_subagent
+ca46dbb2f6e952c9,What is the student visa process for EU?,"## Introduction
+**Understanding the Student Visa Process for the EU**
+
+As an expert study abroad consultant, I understand the significance of obtaining a student visa to pursue higher education in the European Union. To ensure a smooth and efficient process, it is essential to follow a comprehensive set of steps. Here are some key points to consider:
+
+* **Establishing Eligibility:** Determine if you meet the eligibility criteria for a student visa, including having a valid passport, proof of financial means, and acceptance into an accredited educational institution.
+* **Gathering Documentation...",,verified_wrong,https://www.consilium.europa.eu/en/press/press-releases/2018/04/26/eu-student-visa-no-such-thing/,Premise of a unified 'EU student visa process' is wrong; there is no single EU student visa - each member state issues its own national long-stay/student visa.,v5_audit_subagent
+a33e8cdb258cb3d2,What documents are needed for New Zealand student visa?,"## Introduction
+
+To successfully apply for a New Zealand student visa, you will need to gather and submit a comprehensive set of documents. These documents serve as proof of your identity, academic qualifications, financial stability, and health status.
+
+## Main Content
+
+### Personal Documents
+
+* **Passport:** This is important because it establishes your identity and nationality. It must be valid for at least three months beyond your intended stay in New Zealand.
+* **Proof of Identity:** Additional documents, such as a driver's license or birth certificate, may be required to verify your iden...",,verified_correct,https://www.immigration.govt.nz/new-zealand-visas/visas/student-visa,Passport valid for at least 3 months beyond intended stay matches official NZ Immigration requirement.,v5_audit_subagent
+916b217b075383e4,How to make friends and network as an international student?,"## Introduction
+As an international student, building friendships and networking can be crucial for your overall study abroad experience. Here are some key ways to connect with others:
+
+## Joining Clubs and Organizations
+* **This is important because:** Clubs and organizations provide a structured environment to meet people with similar interests.
+* **This results in:** Opportunities for social interaction, shared experiences, and potential collaborations.
+* **Specific example:** The University of California, Berkeley has over 1,000 student organizations, ranging from academic societies to cul...",,verified_correct,https://lead.berkeley.edu/,"UC Berkeley has ~1,200+ registered student organizations per Cal Link/LEAD Center, so 'over 1,000' is correct.",v5_audit_subagent
+2b46c5b869680973,Which Engineering specializations have the best job market in EU?,"## Introduction
+Engineering graduates with certain specializations are in high demand in the European Union (EU). This is important because it provides ample employment opportunities and career advancement prospects for those with the right qualifications. The following specializations offer particularly promising job markets in the EU:
+
+## Main Content
+
+### 1. Computer Science and Engineering
+
+**Reasoning:** The EU is a major hub for technology and innovation, driving the demand for skilled computer scientists and engineers. This results in a plethora of job openings in various industries, in...",,verified_correct,,Generic discussion of EU engineering specializations; no specific checkable claims.,v5_audit_subagent
+6cb1fccfc17a40de,How to find research assistantships in Social Sciences?,"## Introduction
+Exploring research assistantships in Social Sciences offers valuable opportunities for career advancement and academic growth. This guide will provide comprehensive guidance on identifying and securing research assistantships within the field.
+
+## Main Content: Finding Research Assistantships
+
+### Seek Faculty Recommendations
+**This is important because:** Faculty members are well-connected within their research networks and can provide valuable insights into available opportunities.
+**Supporting Evidence:** A recent survey revealed that over 60% of research assistantships in S...",,unclear,,'Over 60% of research assistantships in Social Sciences' cited from a non-named survey; unverifiable. Flagged unclear rather than verified_wrong per protocol.,v5_audit_subagent
+668881657ae47df2,Bicycle-friendly campuses and cities for students?,"## Introduction
+Studying abroad is an enriching experience, and choosing a bicycle-friendly campus and city can enhance that experience. Here are some key benefits:
+
+* **Improved physical and mental health:** Cycling promotes exercise and reduces stress.
+* **Reduced transportation costs:** Bikes are a cost-effective way to get around.
+* **Sustainability:** Cycling reduces carbon emissions and traffic congestion.
+
+## Bicycle-Friendly Campuses
+* **Dedicated bike lanes and paths:** This ensures safe and accessible cycling routes.
+* **Bike rental programs:** Many universities offer affordable bike...",,verified_correct,,Generic bicycle-friendly campus advice; no specific checkable claims.,v5_audit_subagent
+e68c159c3d6ea556,What factors should I consider when choosing a university for Computer Science?,"## Introduction
+When selecting a university for Computer Science, several crucial factors demand meticulous consideration. These include the institution's reputation, curriculum, research opportunities, and career services. Understanding the significance of each aspect enables students to make informed decisions that align with their academic and professional aspirations.
+
+## Main Content
+
+### Reputation and Rankings
+* **This is important because:** University reputation serves as a testament to the quality of education, research, and faculty.
+* **Reasoning:** Rankings, such as those published...",,verified_correct,,Generic CS university selection factors; no specific falsifiable specifics.,v5_audit_subagent
+b656f028dd4ae5fb,How do I find universities that match my profile for Business Analytics?,"## Introduction
+
+Finding universities that align with your profile for Business Analytics is crucial for a successful study abroad journey. Here are key considerations:
+
+- **Identifying your academic strengths and interests:** This helps narrow down universities that offer programs matching your qualifications and career aspirations.
+- **Researching university rankings and reputation:** Reputable institutions often provide high-quality education and industry connections.
+- **Exploring program curriculum and faculty expertise:** Ensure the program aligns with your academic goals and provides op...",,verified_correct,,Generic Business Analytics program advice; no specific falsifiable claims.,v5_audit_subagent
+e3588e937efa706e,How to approach professors for research opportunities?,"## Introduction
+When pursuing research opportunities abroad, it is crucial to approach professors effectively. This guide outlines key steps to help you navigate this process successfully.
+
+## Main Content
+
+### 1. Research and Identify Potential Mentors
+**This is important because:** Identifying professors who align with your research interests increases your chances of a successful collaboration.
+**Reasoning:** Professors with shared research interests are more likely to be receptive to mentoring students and providing valuable guidance.
+**Specific Example:** If you are interested in marine b...",,verified_correct,,Generic advice on approaching professors; no specific falsifiable claims.,v5_audit_subagent
+a55f01b5a85500de,How to find research assistantships in Engineering?,"## Introduction
+Finding research assistantships in Engineering requires strategic planning and proactive networking. Here's a comprehensive guide to help you secure a position.
+
+## Main Content
+### Network with Faculty
+**This is important because** establishing connections with professors can lead to research opportunities and valuable mentorship.
+**Reasoning:** Faculty members actively engage in research projects and often seek qualified assistants to support their work.
+
+**Example:** Attend department seminars, reach out to professors whose research interests align with yours, and schedule i...",,verified_correct,,Generic advice on finding engineering RAs; no specific falsifiable claims.,v5_audit_subagent
+9f81e99f0c4a68f0,What are the job prospects after MBA in EU?,"## Introduction
+The job prospects after an MBA in the European Union are promising, offering a wide range of opportunities across various industries. This is important because it ensures that MBA graduates have a competitive edge in the global job market. Key points to consider include:
+
+* Strong demand for MBA graduates in the EU
+* Access to diverse career opportunities
+* High earning potential
+
+## Main Content
+### Strong Demand for MBA Graduates
+The demand for MBA graduates in the EU is high due to the increasing need for skilled professionals in various sectors. This results in numerous job...",,verified_correct,,Generic discussion of MBA job prospects in the EU; no specific falsifiable claims.,v5_audit_subagent
+6878eb562838800b,What documents do I need for applying to MS in Computer Science?,"## Introduction
+To successfully apply for an MS in Computer Science, you will need to submit a comprehensive set of documents. These documents will provide the admissions committee with a clear understanding of your academic qualifications, research experience, and professional goals.
+
+## Critical Documents
+### Academic Transcripts
+**This is important because** it provides evidence of your academic achievements and potential for success in graduate studies.
+
+**Specific example:** The University of California, Berkeley requires official transcripts from all undergraduate and graduate institutio...",,verified_correct,https://grad.berkeley.edu/admissions/application-process/requirements/,"Berkeley requiring official transcripts from all prior institutions is a standard graduate admissions requirement, consistent with Berkeley Graduate Division.",v5_audit_subagent
+532ae98bdaaa05cc,What language support services do universities offer?,"## Introduction
+Universities around the world offer a wide range of language support services to international students, recognizing the importance of language proficiency for academic success and integration into the campus community. These services include English language courses, tutoring, workshops, and conversation groups.
+
+## Main Content
+### Language Courses
+**This is important because** it provides students with structured instruction to improve their English language skills.
+**The reason for this is** that non-native English speakers may face challenges in understanding lectures, par...",,verified_correct,,Generic description of university language support services; no specific falsifiable claims.,v5_audit_subagent
+560ec67801e5afba,Do I need to take additional language courses in India?,"## Introduction
+Do you need to take additional language courses in India? The answer depends on several factors, including your current language proficiency, the country you're studying in, and the program you're enrolled in. This decision is crucial because it can impact your academic success, cultural immersion, and overall experience abroad.
+
+## Main Content
+
+### Language Proficiency
+**This is important because:** Your language proficiency will determine how well you can communicate with locals, participate in classes, and make the most of your time abroad.
+
+**Specific example:** If you're ...",,verified_correct,,Generic discussion of language courses in India; no specific falsifiable claims.,v5_audit_subagent
+13f1655ac14a2a03,How much should I budget monthly for New York?,"## Introduction
+Understanding the monthly budget for studying abroad in New York is crucial for financial planning and ensuring a comfortable stay. Key considerations include accommodation, food, transportation, and other expenses.
+
+## Main Content
+
+### Accommodation
+* **Estimated cost:** $1,000-$2,500 per month
+* **Reasoning:** New York City is known for its high cost of living, particularly for housing.
+* **Example:** Sharing an apartment in Manhattan can cost around $1,500 per month, while a private room in Brooklyn might be closer to $1,000.
+
+### Food
+* **Estimated cost:** $300-$600 per mo...",,verified_correct,,"NYC monthly budget ranges ($1,000-$2,500 accommodation, $300-$600 food) are reasonable approximations; no specific institution or program claims.",v5_audit_subagent
+af661d43163e9a77,What documents do I need for applying to Bachelor of Medicine?,"## Introduction
+Applying to a Bachelor of Medicine (MBBS) program requires meticulous preparation and submission of specific documents. Understanding these requirements is crucial for successful applications. This guide will outline the essential documents needed for MBBS applications, emphasizing their importance and providing real-world examples.
+
+## Main Content
+
+### Academic Credentials
+- **Official Transcripts:** This is important because it provides a comprehensive record of your academic performance. The reason for this is to demonstrate your academic capabilities and meet university ad...","Bachelor of, Bachelor of, MBBS, MCAT, scholarship, healthcare, %, in 20, in 2023",verified_correct,,"Generic MBBS document list; standard admissions items, no specific checkable claims.",v5_audit_subagent
+8762633aa385d0cb,Do I need to submit my A-Level for admission to MS in Computer Science at All India Institute of Medical Sciences?,"## Introduction
+
+**Do I need to submit my A-Level for admission to MS in Computer Science at All India Institute of Medical Sciences (AIIMS)?**
+
+This is an important question for international students considering pursuing a Master's degree in Computer Science at AIIMS. To ensure a successful application, it's crucial to understand the admission requirements and whether your A-Level qualifications meet the eligibility criteria.
+
+## Main Content
+
+### Section 1: AIIMS Admission Requirements
+
+* **Admission to the MS in Computer Science program at AIIMS requires a Bachelor's degree in Computer Sci...","MS in, MS in, GRE, eligibility, required, %",verified_wrong,https://www.aiims.edu/,AIIMS is purely a medical institution; it does not offer MS in Computer Science (or any CS program). The fabricated 'MS in CS at AIIMS' requirement is the entire premise of the response and is wrong.,v5_audit_subagent
+D1,[v4 D-Case anchor] false Medicare eligibility (matches Model Case 2) — SEVERITY: HIGH,[See docs/audit/v4-dataset-factuality-catalog.md],v4_anchor,verified_wrong,docs/audit/v4-dataset-factuality-catalog.md,"Australia healthcare: training data states intl students ""who have been living in Australia for more than 12 months may be eligible"" for Medicare. Per studyinaustralia.gov.au and homeaffairs.gov.au, Subclass 500 holders are NOT eligible for Medicare; OSHC is mandatory. v4 §4.4 D-Case 1 (high severity).",v4_audit
+D2,[v4 D-Case anchor] fabricated programs (matches Model Case 4) — SEVERITY: HIGH,[See docs/audit/v4-dataset-factuality-catalog.md],v4_anchor,verified_wrong,docs/audit/v4-dataset-factuality-catalog.md,Brazil→Bangladesh scholarships: training data lists named scholarships not established to exist. The fine-tuned model reproduces fabricated scholarship programs. v4 §4.4 D-Case 2 (high severity).,v4_audit
+D3,"[v4 D-Case anchor] false-premise elaboration (matches Model Case 3, Stanford) — SEVERITY: MED",[See docs/audit/v4-dataset-factuality-catalog.md],v4_anchor,verified_wrong,docs/audit/v4-dataset-factuality-catalog.md,"""Bachelor of Medicine at Oxford"": training data elaborates admissions for a program that does not exist. Oxford does not offer a direct undergraduate medicine degree (only graduate-entry BMBS). v4 §4.4 D-Case 3 (medium severity).",v4_audit
+D4,[v4 D-Case anchor] incoherent program accepted (matches Model Case 1) — SEVERITY: MED,[See docs/audit/v4-dataset-factuality-catalog.md],v4_anchor,verified_wrong,docs/audit/v4-dataset-factuality-catalog.md,"""MS in Data Science at Harvard Medical School"": training data treats an incoherent template-generated prompt as real and elaborates admissions. HMS does not offer MS in Data Science. v4 §4.4 D-Case 4 (medium severity).",v4_audit
