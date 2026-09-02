@@ -1,0 +1,83 @@
+{
+  "structural": {
+    "dataset_name": "millat/StudyAbroadGPT-Dataset",
+    "total_conversations": 2676,
+    "splits": {
+      "test": {
+        "conversation_count": 402,
+        "turn_count": {
+          "mean": 5.189054726368159,
+          "sd": 0.9831901874146621,
+          "min": 4,
+          "max": 6
+        },
+        "user_turns": 1043,
+        "assistant_turns": 1043,
+        "valid_schema_count": 402,
+        "role_alternation_ok_count": 402,
+        "empty_value_count": 0
+      },
+      "train": {
+        "conversation_count": 2274,
+        "turn_count": {
+          "mean": 5.187335092348285,
+          "sd": 0.9825121224095689,
+          "min": 4,
+          "max": 6
+        },
+        "user_turns": 5898,
+        "assistant_turns": 5898,
+        "valid_schema_count": 2274,
+        "role_alternation_ok_count": 2274,
+        "empty_value_count": 0
+      }
+    },
+    "total_user_turns": 6941,
+    "total_assistant_turns": 6941,
+    "schema_pass_rate_percent": 100.0,
+    "role_alternation_pass_rate_percent": 100.0,
+    "empty_value_count": 0,
+    "distinct_1": 0.005435310674078851,
+    "distinct_2": 0.11113639932002368
+  },
+  "exact_duplicates": {
+    "duplicate_group_count": 0,
+    "duplicate_record_count": 0,
+    "train_test_exact_overlap_count": 0,
+    "examples": []
+  },
+  "repeated_assistant_responses": {
+    "unique_assistant_responses": 6939,
+    "repeated_response_group_count": 2,
+    "repeated_response_instance_count": 4,
+    "examples": [
+      {
+        "response_prefix": "reducing living expenses building on our previous discussion about the cost of living in london, australia, lets explore ways to reduce your living expenses.  accommodation as we discussed earlier regarding accommodation costs, location and type of housing significantly impact your budget.  cause: h",
+        "locations": [
+          "train[2118].turn3",
+          "train[2118].turn5"
+        ],
+        "count": 2
+      },
+      {
+        "response_prefix": "student discounts building on our previous discussion about budgeting for living expenses in toronto, lets explore the availability of student discounts.  discounts and perks because of torontos large student population, many businesses offer discounts and perks to students. this leads to significan",
+        "locations": [
+          "test[382].turn3",
+          "test[382].turn5"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  "near_duplicates": {
+    "method": "TF-IDF word unigrams+bigrams with English stop-word removal",
+    "threshold": 0.9,
+    "near_duplicate_pair_count": 0,
+    "near_duplicate_test_percentage": 0.0,
+    "max_similarity_mean": 0.5115347658382742,
+    "max_similarity_sd": 0.0776640549492146,
+    "max_similarity_min": 0.2873071505928337,
+    "max_similarity_max": 0.6968736780910718,
+    "examples": []
+  }
+}

@@ -1,1 +1,103 @@
+# ---------- OS metadata ----------
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.fseventsd
+
+# ---------- Editors / IDEs / vaults ----------
+.obsidian/
+.obsidian.cache
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.fuse_hidden*
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+.installed.cfg
+MANIFEST
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ---------- Virtual environments ----------
+.venv/
+venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+profile_default/
+
+# ---------- Weights & Biases ----------
+wandb/
+*.wandb
+wandb-cache/
+
+# ---------- Hugging Face artifacts ----------
+hf_token*
+.huggingface/
+huggingface_token*
+huggingface-cli/
+
+# ---------- Model / data artifacts (released on HF Hub, not here) ----------
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+*.onnx
+*.parquet
+*.arrow
+
+# ---------- Logs / runtime ----------
+*.log
+logs/
+nohup.out
+*.out
+
+# ---------- Secrets / local config ----------
+.env
+.env.local
+.env.*.local
+*.env
+secrets/
+
+# ---------- Local working directories (kept locally, not part of the project) ----------
+LoRA Paper/
+LoRA_Paper/
+scratch/
+tmp/
+.claude/
+
+# ---------- Backups / temp files ----------
+*.tmp
+*.bak
+*.orig
+*.rej

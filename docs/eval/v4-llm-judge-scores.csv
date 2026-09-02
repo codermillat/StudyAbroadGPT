@@ -1,0 +1,51 @@
+sample_id,domain_a,help_a,domain_b,help_b,preferred_slot,note_a,note_b
+1,2,2,3,3,b,Accurate but omits opt-out/waiver nuance,"Correct, notes opt-out, mandatory intl"
+2,3,3,0,0,a,Correct: HMS uses MCAT not GRE,Hallucinated GRE requirements
+3,2,2,2,2,tie,Solid but truncated,"Solid, organized, truncated"
+4,2,2,2,2,b,"Generic SOP, less MIT-specific","More Sloan-specific, truncated"
+5,1,1,2,2,b,CPESP fabricated; dubious figures,"Mostly real scholarships, truncated"
+6,2,2,3,3,b,"Truncated, omits essays/app form",Complete incl essays and form
+7,1,2,1,2,tie,"Inaccurate specifics, truncated","Questionable GPA specifics, truncated"
+8,3,3,3,3,tie,Accurate language services,"Accurate, adds writing centers"
+9,2,2,2,2,tie,"Useful tips, truncated","Useful tips, truncated"
+10,2,2,2,2,tie,"Useful, truncated","Useful, adds social media"
+11,3,3,0,1,a,"Correct: no Medicare, OSHC required",Falsely claims Medicare after 6mo
+12,2,2,3,3,b,Solid but cut off,"Complete, accurate, incl deposit"
+13,2,2,2,2,b,Reasonable but truncated,Clear tiered breakdown
+14,2,2,2,2,tie,"Mostly accurate, outdated detail","Good, test-optional nuance omitted"
+15,3,2,3,3,b,"Accurate but truncated, fewer listed",Broader accurate list
+16,2,3,2,2,a,Clear program-tailored SOP,"Solid but generic, truncated"
+17,2,2,3,3,b,"Correct, caveated, minimal","Correct, adds timing/biometrics"
+18,2,2,2,2,a,Concrete named examples,Some prestige scholarships off-topic
+19,1,2,2,2,b,Wrongly calls loans non-means-tested,"Accurate means-tested, dated figures"
+20,3,2,2,2,a,"Accurate BAfoG, avoids overclaim",Overstates intl BAfoG eligibility
+21,2,2,2,2,tie,Solid language services overview,"Similar, adds language labs"
+22,1,1,1,2,b,"Gates/Rhodes errors, not Chinese-specific","GREAT/CSC accurate, Marshall wrong"
+23,1,1,1,1,tie,German irrelevant for Canada,Same flawed premise
+24,2,2,2,2,a,"Accurate bike-friendly, global","Good but truncated, US-focused"
+25,2,2,2,1,a,"Reasonable Boston, MBTA-specific","Duplicates utilities, less coherent"
+26,2,2,2,2,b,"Mostly real clubs, some uncertain",Accurate Stanford orgs
+27,2,2,2,2,tie,Useful research options,"Similar, adds intl/industry"
+28,2,2,2,2,b,"Good examples, less structured",Concrete named programs
+29,1,1,2,2,b,"Generic, no named scholarships",Names real Australian scholarships
+30,2,2,2,2,tie,Solid adjustment tips,Similar practical advice
+31,2,2,2,2,b,Accurate but cut off,"Broader range, work-study incl"
+32,2,2,2,2,b,"Reasonable, truncated","CAD-specific, clearer"
+33,2,2,2,2,tie,"Solid, conflates language/English","Similar, truncated"
+34,0,0,2,2,b,Hallucinates fake scholarships,"Honest about rarity, real alts"
+35,2,2,2,2,tie,"Concrete job boards, truncated",Strong application focus
+36,2,2,3,3,b,"Truncated, missing essays/form",Complete incl essays and form
+37,0,1,2,2,b,Invents Stanford MBBS requirements,Correctly notes no direct MBBS
+38,2,2,2,2,tie,"Solid, conflates language/English","Similar, truncated"
+39,1,1,2,2,b,US-centric MCAT confuses MBBS,Acknowledges country variation
+40,2,2,2,2,tie,"Accurate top unis, truncated","Accurate top unis, truncated"
+41,2,2,2,2,tie,"Solid writing tips, truncated","Comparable, truncated"
+42,2,2,2,2,a,Practical visa/housing logistics,"Academic focus, less logistical"
+43,2,2,1,1,a,"Relevant languages, Nepal ties",Conflates programming/test prep
+44,2,2,2,2,tie,Accurate scholarship steps,"Adds research/need, comparable"
+45,3,3,2,2,a,Names specific EU scholarships,Correct but vaguer
+46,2,2,2,2,tie,Useful networking tips,"Equivalent, adds social media"
+47,2,2,2,2,a,"Reasonable visa steps, caveated","Sequencing questionable, less caveat"
+48,2,2,2,2,tie,Accurate MBA paths,Similar with skill descriptions
+49,2,2,1,1,a,Mostly accurate MIT facilities,Some facilities hallucinated
+50,3,3,2,2,a,"Concrete job boards, actionable",Solid but generic

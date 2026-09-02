@@ -1,0 +1,660 @@
+sample_id,dataset_index,prompt,response,generation_time_sec,response_char_length,response_token_count,was_truncated
+1,151,What medical coverage is provided by universities in USA?,"Medical coverage provided by universities in the USA can vary significantly, but here are some common types of coverage:
+
+1. Student Health Insurance Plans (SHIP): Many universities require international students to enroll in their Student Health Insurance Plan (SHIP). These plans typically cover basic medical services, such as doctor visits, hospitalization, and prescription drugs.
+
+2. Comprehensive Health Insurance: Some universities offer comprehensive health insurance plans that cover a wider range of services, including mental health, dental, and vision care. These plans may be optional or mandatory, depending on the university.
+
+3. Health Services: Universities often have on-campus health centers that provide primary care, immunizations, and other health services. These services are usually free or low-cost for students.
+
+4. Emergency Medical Services: Universities typically have emergency medical services available on campus or nearby. These services are designed to respond quickly to medical emergencies and provide immediate care.
+
+5. Health and Wellness Programs: Some universities offer health and wellness programs that promote healthy lifestyles and provide resources for students to manage their physical and mental health. These programs may include fitness classes, stress management workshops, and nutrition counseling",25.927644649000058,1350,256,True
+2,127,What are the GRE requirements for Harvard Medical School?,"Harvard Medical School (HMS) requires the following for the Graduate Record Examinations (GRE):
+
+1. **GRE General Test:** HMS requires all applicants to submit GRE scores. The scores are used as part of the overall application review process.
+
+2. **Minimum Score:** There is no minimum score required for the GRE. However, it's important to note that HMS considers a strong performance on the GRE as a positive factor in the application process.
+
+3. **GRE Subject Test:** HMS does not require the GRE Subject Test.
+
+4. **GRE Score Submission:** Applicants should arrange for the Educational Testing Service (ETS) to send official GRE scores directly to HMS. The ETS institution code for HMS is 3444.
+
+5. **GRE Scores Validity:** GRE scores are valid for five years from the test date.
+
+6. **GRE Waiver:** HMS does not offer a GRE waiver for any applicants.
+
+7. **Test Preparation:** HMS recommends that applicants prepare thoroughly for the GRE.",24.415280338000002,945,256,True
+3,77,What factors should I consider when choosing a university for Computer Science?,"Choosing a university for Computer Science is a significant decision that can impact your future career. Here are some key factors to consider:
+
+1. **Academic Reputation and Ranking**: The university's reputation in Computer Science can influence your future job prospects. Top-ranked universities often have strong connections with industry leaders and offer rigorous programs.
+
+2. **Program Curriculum**: Research the curriculum of the Computer Science program to ensure it aligns with your career goals. Look for programs that offer a balance of theoretical and practical knowledge, and that provide opportunities for specialization.
+
+3. **Faculty and Research**: The quality of the faculty and their research can indicate the university's commitment to Computer Science. Look for universities with renowned professors and active research programs.
+
+4. **Location**: The location of the university can impact your lifestyle, access to internships, and job opportunities after graduation. Consider the cost of living, cultural amenities, and proximity to tech hubs.
+
+5. **Cost and Financial Aid**: Tuition fees and financial aid options are important factors. Research scholarships, grants, and work-study programs to help offset the cost of education.
+
+6",23.598533605000057,1257,256,True
+4,43,How do I write a strong SOP for MBA at MIT?,"Writing a strong Statement of Purpose (SOP) for an MBA program at MIT requires careful planning and a deep understanding of the program's values and expectations. Here are some key points to consider:
+
+1. **Understand MIT's Mission and Values:** MIT's mission is to advance knowledge and educate students in science, technology, and other areas of scholarship that will best serve the nation and the world. This mission is reflected in the Sloan School of Management's focus on innovation, leadership, and global impact.
+
+2. **Highlight Your Unique Qualifications:** MIT seeks students who are intellectually curious, creative, and have a strong track record of achievement. Emphasize your academic achievements, work experience, and extracurricular activities that demonstrate these qualities.
+
+3. **Articulate Your Career Goals:** Clearly state your short-term and long-term career goals and explain how an MBA from MIT will help you achieve them. This should be aligned with MIT's focus on innovation and leadership.
+
+4. **Showcase Your Leadership Skills:** MIT values leadership and entrepreneurship. Highlight any leadership roles you have held, including in academic, professional,",24.121519674999945,1187,256,True
+5,261,What scholarships are available for Pakistani students in Canada?,"There are several scholarships available for Pakistani students in Canada. Here are some notable ones:
+
+1. **University of Toronto International Student Scholarships:** These scholarships are awarded to outstanding international students who have demonstrated academic excellence and leadership potential. The value of the scholarships can range from $60,000 to $120,000 for undergraduate students and $40,000 to $60,000 for graduate students.
+
+2. **Vanier Canada Graduate Scholarships (Vanier CGS):** These scholarships are awarded to doctoral students who demonstrate leadership, research potential, and a high standard of scholarly achievement. The value of the scholarship is $50,000 per year for three years.
+
+3. **Canada-Pakistan Education Scholarship Program (CPESP):** This scholarship is offered by the Government of Canada and the Government of Pakistan to support Pakistani students pursuing undergraduate and graduate studies in Canada. The scholarship covers tuition fees, living expenses, and airfare.
+
+4. **Humphrey Fellowships:** These fellowships are for mid-career professionals",24.72791521099998,1096,256,True
+6,68,What documents do I need for applying to MBA?,"Applying for an MBA program typically requires a variety of documents. Here are some of the most common ones:
+
+1. **Transcripts**: Official transcripts from all post-secondary institutions attended are necessary. These documents provide a record of your academic performance and are essential for evaluating your academic qualifications.
+
+2. **GMAT or GRE Scores**: Most MBA programs require standardized test scores, such as the Graduate Management Admission Test (GMAT) or the Graduate Record Examination (GRE). These tests assess your analytical, quantitative, and verbal reasoning skills.
+
+3. **Letters of Recommendation**: Typically, you will need two to three letters of recommendation from individuals who can attest to your professional and academic abilities. These letters should come from professors, supervisors, or colleagues who can provide insights into your work ethic, leadership skills, and potential for success in an MBA program.
+
+4. **Resume or CV**: A well-crafted resume or CV is crucial for showcasing your professional experience, skills, and accomplishments. It should highlight your relevant work experience, education, and any extracurricular",24.746178858999883,1170,256,True
+7,371,Can you explain the admission process for Dhaka University?,"The admission process for Dhaka University (DU) involves several key steps. Here's a comprehensive guide to help you navigate the process:
+
+1. **Eligibility Criteria:**
+   - To be eligible for admission, you must have passed the Higher Secondary Certificate (HSC) or equivalent examination with a minimum GPA of 3.00 (out of 5.00) in the Science, Business, or Humanities stream.
+   - For the Faculty of Engineering, a minimum GPA of 3.50 is required.
+
+2. **Admission Test:**
+   - DU conducts an admission test known as the ""DU Admission Test"" (DUAT). This test is mandatory for all undergraduate programs.
+   - The test covers subjects like English, Mathematics, and General Knowledge for Science and Business streams. For Humanities, it includes English, Bangla, and General Knowledge.
+
+3. **Application Process:**
+   - The application process typically begins in January or February each year.
+   - You can apply online through the DU website or authorized educational institutions.
+   - You will need to submit your HSC or equivalent examination results",23.9292335130001,1056,256,True
+8,280,What language support services do universities offer?,"Universities often provide a range of language support services to assist students who are not native speakers of the language of instruction. These services can vary depending on the institution, but may include:
+
+1. Language Courses: Universities may offer language courses for students to improve their proficiency in the language of instruction. These courses can be taken for credit or non-credit and may be mandatory for international students.
+
+2. Language Tutoring: Many universities provide language tutoring services to help students with specific language skills, such as grammar, pronunciation, and vocabulary.
+
+3. Writing Centers: Writing centers offer assistance with academic writing, including proofreading and editing services. These centers can be particularly helpful for students who are not native speakers and may struggle with writing in the language of instruction.
+
+4. Conversation Partners: Universities may offer programs that pair students with native speakers of the language of instruction for conversation practice. This can help students improve their fluency and confidence in speaking the language.
+
+5. Translation and Interpretation Services: Some universities provide translation and interpretation services for students who need assistance with official documents, such as transcripts and diplomas, or who require interpretation during academic events",24.576292965999983,1388,256,True
+9,178,How can I adjust to student life in Australia?,"Adjusting to student life in Australia can be an exciting yet challenging experience. Here are some key tips to help you make a smooth transition:
+
+1. **Prepare Financially**: Determine your living expenses, including tuition, accommodation, food, transportation, and entertainment. Create a budget and stick to it to avoid financial stress.
+
+2. **Find Accommodation**: Research different accommodation options, such as on-campus housing, homestays, shared apartments, or private rentals. Consider factors like location, cost, and amenities when making your decision.
+
+3. **Enroll in Orientation Programs**: Most universities offer orientation programs to help international students adjust to campus life. These programs provide valuable information about academic expectations, campus resources, and Australian culture.
+
+4. **Join Clubs and Societies**: Participating in student clubs and societies is a great way to meet new people, make friends, and get involved in campus activities. This can help you feel more connected to your university and the Australian community.
+
+5. **Learn Local Customs and Etiquette**: Familiarize yourself with Australian culture and customs to avoid misunderstandings. For example, Australians are",24.655875599999945,1232,256,True
+10,231,Social activities and events for international students?,"International students often seek opportunities to engage in social activities and events to enhance their cultural experiences, make friends, and connect with the local community. Here are some suggestions for social activities and events that international students can participate in:
+
+1. University-organized events: Many universities offer a variety of social events specifically designed for international students. These events can include welcome receptions, cultural festivals, language exchange programs, and sports clubs.
+2. Student clubs and organizations: Joining student clubs and organizations is a great way to meet people with similar interests and backgrounds. There are clubs for every imaginable hobby, from music and dance to academic and professional interests.
+3. Cultural exchange programs: Participating in cultural exchange programs can provide international students with the opportunity to learn about the local culture and make friends with locals. These programs can include homestays, language exchange programs, and volunteer opportunities.
+4. Community events: Attending community events such as festivals, concerts, and sporting events can be a great way to immerse yourself in the local culture and meet new people.
+5. Social media groups: Joining social media groups for international students in your city or university can help you connect with other students and find out about upcoming",24.48826575599992,1425,256,True
+11,2,How does the healthcare system work for international students in Australia?,"The healthcare system for international students in Australia is primarily managed by Medicare, the universal healthcare system, and private health insurance providers. Here's a breakdown of how it works:
+
+1. Medicare:
+   - International students are eligible for Medicare coverage after they arrive in Australia and have been enrolled in their course for at least six months.
+   - Medicare provides subsidized access to essential medical services, such as doctor visits, hospital stays, and some prescription medications.
+   - To enroll in Medicare, students must apply online or visit a Medicare Service Centre with their passport, student visa, and evidence of enrollment in an Australian educational institution.
+
+2. Overseas Student Health Cover (OSHC):
+   - OSHC is a private health insurance policy that international students are required to have as a condition of their student visa.
+   - OSHC covers the cost of medical and hospital expenses that are not covered by Medicare, such as ambulance services, dental treatment, and optical care.
+   - Students can purchase OSHC from a range of providers, and the cost varies depending on the level of coverage and the duration of the policy.
+
+3. Accessing",23.998970843000052,1209,256,True
+12,211,What documents do I need to rent in Canada?,"Renting a property in Canada typically requires several documents to prove your identity, financial stability, and eligibility. Here are the essential documents you'll likely need:
+
+1. Government-issued ID: This could be a passport, driver's license, or permanent resident card.
+
+2. Proof of income: Landlords often require proof of income to ensure you can afford the rent. This can include pay stubs, employment letters, or tax returns.
+
+3. Credit check: Landlords may request a credit check to assess your financial history and reliability.
+
+4. Rental history: If you have previously rented, providing references from previous landlords can help demonstrate your responsible rental behavior.
+
+5. Guarantor: Some landlords may require a guarantor, who is typically a family member or friend with a stable income who is willing to cover the rent if you default.
+
+6. Lease agreement: This is a legally binding contract between you and the landlord that outlines the terms of the rental, including the rent amount, lease duration, and responsibilities of both parties.
+
+7. First and last month's rent: Most",23.883066769999914,1105,256,True
+13,122,How much should I budget monthly for London?,"The cost of living in London can vary significantly depending on your lifestyle, accommodation, and personal spending habits. Here's a rough breakdown to help you budget:
+
+1. Accommodation:
+   - Shared flat (£600-£1,200)
+   - Studio apartment (£800-£2,000)
+   - One-bedroom apartment (£1,200-£3,000)
+
+2. Food:
+   - Groceries: £200-£300 per month
+   - Eating out: £200-£400 per month
+
+3. Transportation:
+   - Monthly travelcard (£60-£120)
+   - Bus/Tube fares (£2-£5 per journey)
+
+4. Utilities:
+   - Electricity, gas, water: £50-£100 per month
+   - Internet: £20-£40 per month
+
+5. Entertainment:
+   - Cinema ticket: £10-£15
+   - Dinner and drinks with friends: £",24.53357391899999,660,256,True
+14,123,Can you explain the admission process for MIT?,"The admission process for MIT is highly competitive and rigorous, with a focus on academic excellence, intellectual curiosity, and potential for contribution to the MIT community. Here are the key steps involved:
+
+1. **Application**: The application process begins by submitting an online application through the Common Application or Coalition Application. This includes personal information, academic record, extracurricular activities, and essays.
+
+2. **Standardized Tests**: MIT requires all applicants to submit scores from the SAT or ACT. The average SAT score for admitted students is around 1550 (out of 1600), and the average ACT score is around 34.
+
+3. **Academic Transcript**: Applicants must submit an official high school transcript that shows their academic performance, including grades, coursework, and class rank (if available).
+
+4. **Letters of Recommendation**: MIT requires two letters of recommendation, one from a teacher in a core academic subject and one from a counselor or principal. These letters should highlight the applicant's academic abilities, work ethic, and potential for success at MIT.
+
+5. **Essays**: Applicants",24.066625736000105,1149,256,True
+15,97,Which universities in Canada are best for Engineering?,"Choosing the right university for your engineering studies in Canada is crucial for your academic and career success. Here are some top-ranked universities in Canada for engineering, along with their key strengths:
+
+1. University of Toronto (U of T)
+   - Ranked among the top 20 universities globally for engineering.
+   - Offers a wide range of engineering programs, including civil, electrical, mechanical, and computer engineering.
+   - Strong research focus with numerous collaborations with industry partners.
+
+2. University of British Columbia (UBC)
+   - Consistently ranked among the top 50 universities globally for engineering.
+   - Known for its innovative and interdisciplinary engineering programs, such as biomedical, environmental, and software engineering.
+   - State-of-the-art research facilities and strong industry connections.
+
+3. University of Waterloo
+   - Renowned for its cooperative education program, which allows students to gain valuable work experience while pursuing their degree.
+   - Offers a wide range of engineering programs, including systems design engineering, mechatronics, and nuclear engineering.
+   - Strong partnerships with leading tech companies, providing students with",23.568028844000082,1215,256,True
+16,167,How do I write a strong SOP for MS in Data Science at MIT?,"Writing a strong Statement of Purpose (SOP) for an MS in Data Science at MIT requires a well-structured and compelling narrative that showcases your qualifications, motivation, and fit for the program. Here's a step-by-step guide to help you craft a compelling SOP:
+
+1. **Introduction:**
+   - Briefly introduce yourself, your academic background, and your career goals.
+   - Mention your interest in data science and why you chose MIT for your MS.
+
+2. **Academic Background and Qualifications:**
+   - Highlight your relevant coursework, projects, and research experience in data science.
+   - Quantify your achievements, such as GPA, awards, or publications, to demonstrate your academic excellence.
+
+3. **Professional Experience:**
+   - Describe any internships, work experience, or projects that have exposed you to data science.
+   - Emphasize the skills and knowledge you gained from these experiences and how they align with the program's curriculum.
+
+4. **Motivation for Pursuing an MS in Data Science at MIT:**
+   - Explain why you are passionate about data science and how",23.51789069199981,1080,256,True
+17,192,How long does it take to get a student visa for UK?,"The processing time for a Tier 4 (General) student visa for the UK can vary depending on several factors, including the time of year, the complexity of your application, and the efficiency of the visa application center or embassy where you submit your application.
+
+Generally, the UK Visas and Immigration (UKVI) aims to process most student visa applications within 15 working days. However, during peak periods, such as before the start of the academic year, processing times can be longer.
+
+It's important to note that you should apply for your visa at least 3 months before the start date of your course. This allows enough time for your application to be processed and for you to receive your visa before you need to travel to the UK.
+
+To ensure a smooth and timely application process, make sure to submit all required documents, complete the application form accurately, and attend any biometric appointments as scheduled. You can check the current processing times on the UKVI website.",20.81850367800007,994,209,False
+18,251,Research funding options for international students?,"## Research Funding Options for International Students
+
+As an international student pursuing research, securing funding is crucial for your academic success and career development. Here are several funding options to consider:
+
+### University Scholarships
+
+* Many universities offer scholarships specifically for international students pursuing research. These scholarships can cover tuition fees, living expenses, and research costs.
+* **Example:** The University of Oxford offers the Clarendon Scholarships, which provide full funding for graduate students from all over the world.
+
+### Government Grants
+
+* Governments of various countries offer grants to support international students in their research. These grants often have specific eligibility criteria and application deadlines.
+* **Example:** The Fulbright Program offers grants for U.S. citizens to study, conduct research, or teach English abroad.
+
+### Research Fellowships
+
+* Research fellowships are awards given to individuals to support their research projects. These fellowships can provide funding for travel, equipment, and living expenses.
+* **Example:** The Humboldt Research Fellowship Program offers fellowships for international researchers to conduct long-term research projects in Germany.
+
+### Industry Sponsorships",24.235417078999944,1294,256,True
+19,375,Tell me about need-based financial aid options in UK,"Need-based financial aid in the UK is primarily provided by the government, universities, and charitable organizations. Here are some key options:
+
+1. **Student Loans**: The UK government offers student loans to cover tuition fees and living expenses. These loans are non-means-tested, meaning they are available to all UK students, regardless of income. However, they must be repaid once the student graduates and earns over a certain income threshold.
+
+2. **Maintenance Loans**: These loans are designed to help with living expenses such as accommodation, food, and travel. The amount you can borrow depends on your household income, the course you're studying, and where you live.
+
+3. **Maintenance Grants**: Unlike loans, grants do not have to be repaid. They are available to students from low-income households and are intended to help with living expenses. However, they are not available to all students and are typically offered by universities or charitable organizations.
+
+4. **Bursaries and Scholarships**: These are awards given by universities or charitable organizations based on financial need, academic merit, or a combination of both. They can range from partial to full tu",24.071466491000137,1191,256,True
+20,380,Tell me about need-based financial aid options in Germany,"Need-based financial aid options in Germany are primarily provided by the German government and universities to support international students who demonstrate financial need. Here are some key points to consider:
+
+1. **BaföG (Federal Education Assistance Act)**: This is a federal program that provides need-based loans and grants to German and international students. To be eligible, students must be enrolled in a state-recognized higher education institution and demonstrate financial need. The amount of aid varies depending on the student's income, parental contributions, and the cost of living in the region where the student is studying.
+
+2. **DAAD (German Academic Exchange Service)**: DAAD offers various scholarships and grants for international students, including need-based scholarships. These scholarships cover tuition fees, living expenses, and travel costs. Eligibility criteria vary depending on the scholarship program.
+
+3. **University-specific scholarships**: Many German universities offer their own scholarships to support international students. These scholarships may be need-based or merit-based, and the eligibility criteria vary from university to university.
+
+4. **Private scholarships**: There are also private organizations and foundations that offer",24.188718046000076,1282,256,True
+21,281,What language support services do universities offer?,"Universities often provide a range of language support services to assist students who are not native speakers of the language of instruction. These services can vary depending on the institution, but may include:
+
+1. Language Courses: Universities may offer language courses for students to improve their proficiency in the language of instruction. These courses can be taken for credit or non-credit and may be mandatory for international students.
+
+2. Language Tutoring: Many universities provide language tutoring services to help students with specific language skills, such as grammar, pronunciation, and vocabulary.
+
+3. Writing Centers: Writing centers offer assistance with academic writing, including proofreading and editing services. These centers can be particularly helpful for students who are not native speakers and may struggle with writing in the language of instruction.
+
+4. Conversation Partners: Universities may offer programs that pair students with native speakers of the language of instruction for conversation practice. This can help students improve their fluency and confidence in speaking the language.
+
+5. Translation and Interpretation Services: Some universities provide translation and interpretation services for students who need assistance with official documents, such as transcripts and diplomas, or who require interpretation during academic events",24.58653906099994,1388,256,True
+22,109,What scholarships are available for Chinese students in UK?,"There are several scholarships available for Chinese students studying in the UK. Here are some notable ones:
+
+1. Chevening Scholarships: This is a fully-funded scholarship program offered by the UK government for international students, including Chinese students. It covers tuition fees, living expenses, and travel costs for a one-year master's degree at any UK university.
+
+2. Gates Cambridge Scholarships: This scholarship is offered by the University of Cambridge and is open to all international students, including Chinese students. It covers tuition fees, maintenance allowance, travel expenses, and other related costs for a postgraduate degree at Cambridge.
+
+3. Rhodes Scholarships: This is one of the most prestigious scholarships in the world and is offered by the University of Oxford. It covers all university and college fees, a personal stipend, and other expenses for two or three years of postgraduate study at Oxford.
+
+4. British Council Scholarships: The British Council offers several scholarships for Chinese students, including the IELTS Scholarships, the University of Sussex China Scholarships, and the University of Westminster International Scholarships. These scholarships cover tuition fees",23.506366254999875,1220,256,True
+23,356,How can I improve my German before studying in Canada?,"Improving your German before studying in Canada can significantly enhance your academic experience and overall success. Here are some effective strategies to help you prepare:
+
+1. **Language Courses:** Enroll in German language courses at a local community college, university, or online platform. This structured learning environment provides a comprehensive curriculum, qualified instructors, and opportunities for practice and feedback.
+
+2. **Language Exchange Programs:** Connect with native German speakers through language exchange programs. This allows you to practice speaking and listening skills in a conversational setting. Websites like Tandem and HelloTalk facilitate these connections.
+
+3. **Online Resources:** Utilize online resources such as Duolingo, Babbel, and Rosetta Stone for self-study. These platforms offer interactive lessons, vocabulary exercises, and pronunciation guides.
+
+4. **Reading and Listening:** Immerse yourself in German literature, newspapers, and podcasts. This exposes you to authentic language and helps improve your comprehension and vocabulary.
+
+5. **German Film and Music:** Watch German movies and listen to German music to enhance your listening skills and gain a better understanding of the culture.
+
+6. **Consistent Practice",23.404005115000018,1274,256,True
+24,38,Bicycle-friendly campuses and cities for students?,"## Bicycle-Friendly Campuses and Cities for Students
+
+### Introduction
+
+Bicycle-friendly campuses and cities offer numerous benefits for students, including improved physical health, reduced transportation costs, and a more sustainable lifestyle. This guide will highlight some of the top universities and cities that prioritize cycling and provide excellent resources for students who choose to bike.
+
+### Bicycle-Friendly Universities
+
+1. **University of California, Davis**
+   - Known as the ""Bicycle Capital of the World,"" UC Davis has a long-standing commitment to cycling.
+   - Over 20% of students commute by bike, and the campus boasts an extensive network of bike lanes, paths, and bike-sharing programs.
+
+2. **University of Oregon**
+   - Eugene, Oregon, where the university is located, is consistently ranked as one of the most bike-friendly cities in the U.S.
+   - The university offers bike rentals, repair services, and a bike-friendly campus with designated bike lanes and bike racks.
+
+3. **University of Illinois at Urbana-Champaign**",24.1201143830001,1050,256,True
+25,247,How much should I budget monthly for Boston?,"Determining a monthly budget for Boston can vary greatly depending on your lifestyle, accommodation preferences, and personal expenses. Here are some average costs to consider:
+
+1. **Accommodation:**
+   - Shared apartment: $1,200-$1,800
+   - Studio apartment: $1,500-$2,500
+   - One-bedroom apartment: $2,000-$3,500
+
+2. **Food:**
+   - Groceries: $300-$500
+   - Dining out: $200-$400
+
+3. **Transportation:**
+   - Public transportation (MBTA): $90-$120 monthly pass
+   - Ride-sharing (Uber, Lyft): $100-$200
+
+4. **Utilities:**
+   - Electricity: $50-$100
+   - Gas: $50-$100
+   - Internet: $50-$100
+
+5. **Healthcare:**
+   - Health insurance: $100-$300 (depending on",24.00253391000001,661,256,True
+26,334,What student clubs and organizations are popular at Stanford?,"Stanford University offers a wide range of student clubs and organizations that cater to diverse interests and aspirations. Here are some of the most popular ones:
+
+1. **Associated Students of Stanford University (ASSU)**: The student government that represents the student body and organizes various events and initiatives.
+
+2. **Stanford Daily**: The student-run newspaper that covers campus news, sports, and opinion pieces.
+
+3. **Stanford Outdoor Club**: For students who love outdoor activities, this club offers hiking, camping, rock climbing, and other adventures.
+
+4. **Stanford Entrepreneurial Society (SES)**: A hub for students interested in entrepreneurship, innovation, and startups.
+
+5. **Stanford Mock Trial**: A competitive team that participates in national and international mock trial tournaments.
+
+6. **Stanford A Cappella**: A collection of student-led a cappella groups that perform at various campus events.
+
+7. **Stanford International Relations Association (SIRA)**: A student-run organization that focuses on international affairs, diplomacy, and policy discussions.
+
+8. **Stanford",23.598024157000054,1107,256,True
+27,9,What research opportunities are available for Masters students?,"As a Masters student, you have a wide range of research opportunities available to you, both within and outside of your academic institution. Here are some key areas to explore:
+
+1. **University Research Projects:** Many universities offer research projects as part of their Masters programs. These projects allow you to work closely with faculty members on cutting-edge research in your field. This is a great way to gain hands-on research experience and contribute to the advancement of knowledge.
+
+2. **International Research Collaborations:** Collaborating with researchers from other countries can provide unique perspectives and expose you to different research methodologies. Look for opportunities to participate in international conferences, workshops, or research exchanges.
+
+3. **Industry Research:** Many companies offer research opportunities for Masters students. This can provide valuable industry experience and help you apply your academic knowledge to real-world problems.
+
+4. **Government Research:** Government agencies such as the National Science Foundation (NSF) and the National Institutes of Health (NIH) offer funding for research projects. This can be a great way to secure funding for your research and gain exposure to government research policies.
+
+5. **Start-ups and Entrepre",24.112425738999946,1306,256,True
+28,388,Research funding options for international students?,"## Research Funding Options for International Students
+
+As an international student pursuing research, securing funding is crucial for your academic success and career development. Here are several funding options to consider:
+
+### University Scholarships
+
+* Many universities offer scholarships specifically for international students pursuing research. These scholarships can cover tuition fees, living expenses, and research costs.
+* **Example:** The University of Oxford offers the Clarendon Scholarships, which provide full funding for graduate students from all over the world.
+
+### Government Grants
+
+* Governments of various countries offer grants to support international students in their research. These grants often have specific eligibility criteria and application deadlines.
+* **Example:** The Fulbright Program offers grants for U.S. citizens to study, conduct research, or teach English abroad.
+
+### Research Fellowships
+
+* Research fellowships are awards given to individuals to support their research projects. These fellowships can provide funding for travel, equipment, and living expenses.
+* **Example:** The Humboldt Research Fellowship Program offers fellowships for international researchers to conduct long-term research projects in Germany.
+
+### Industry Sponsorships",24.40348208799992,1294,256,True
+29,358,How can I get a full scholarship for studying Medicine in Australia?,"Securing a full scholarship for studying Medicine in Australia is a competitive process, but it's certainly achievable with careful planning and preparation. Here are some key steps to consider:
+
+1. **Academic Excellence:** Achieve outstanding academic results in your previous studies, particularly in relevant subjects such as Biology, Chemistry, and Mathematics. This is often the primary criterion for scholarship selection.
+
+2. **Research Experience:** Gain research experience in a medical or health-related field. This demonstrates your passion for medicine and your ability to conduct independent research, which is highly valued by universities.
+
+3. **Extracurricular Activities:** Engage in extracurricular activities that showcase your leadership, community involvement, and commitment to healthcare. This could include volunteering at hospitals, participating in medical-related clubs, or organizing health awareness campaigns.
+
+4. **Personal Statement:** Craft a compelling personal statement that articulates your motivations for pursuing medicine, your career goals, and how your experiences have prepared you for this journey. Highlight your unique qualities and how they align with the values of the scholarship provider.
+
+5. **Letters of Re",24.28139500899988,1258,256,True
+30,26,How can I adjust to student life in UK?,"Adjusting to student life in the UK can be an exciting yet challenging experience. Here are some key tips to help you navigate this transition smoothly:
+
+1. **Understand the academic system:** The UK education system is known for its rigor and emphasis on independent learning. Familiarize yourself with the assessment methods, grading system, and expectations of your course.
+
+2. **Prepare for cultural differences:** The UK has a different culture and social norms compared to many other countries. Be open to new experiences and be respectful of local customs.
+
+3. **Join clubs and societies:** University life is not just about academics. Joining clubs and societies is a great way to meet new people, make friends, and explore your interests.
+
+4. **Manage your time effectively:** University life can be busy, so it's important to manage your time wisely. Create a study schedule and stick to it.
+
+5. **Seek support when needed:** Don't hesitate to ask for help if you're struggling with your studies or personal issues. Universities offer a range of support services, including academic advisors, counselors, and student unions.
+
+6. **Take care",23.299198180000076,1150,256,True
+31,225,Research funding options for international students?,"## Research Funding Options for International Students
+
+As an international student pursuing research, securing funding is crucial for your academic success and career development. Here are several funding options to consider:
+
+### University Scholarships
+
+* Many universities offer scholarships specifically for international students pursuing research. These scholarships can cover tuition fees, living expenses, and research costs.
+* **Example:** The University of Oxford offers the Clarendon Scholarships, which provide full funding for graduate students from all over the world.
+
+### Government Grants
+
+* Governments of various countries offer grants to support international students in their research. These grants often have specific eligibility criteria and application deadlines.
+* **Example:** The Fulbright Program offers grants for U.S. citizens to study, conduct research, or teach English abroad.
+
+### Research Fellowships
+
+* Research fellowships are awards given to individuals to support their research projects. These fellowships can provide funding for travel, equipment, and living expenses.
+* **Example:** The Humboldt Research Fellowship Program offers fellowships for international researchers to conduct long-term research projects in Germany.
+
+### Industry Sponsorships",23.53406022299987,1294,256,True
+32,66,What are typical student expenses in Canada?,"Student expenses in Canada can vary significantly depending on the location, lifestyle, and program of study. Here are some typical categories of expenses that students may incur:
+
+1. Tuition and fees: This is the primary expense for most students and can range from $15,000 to $35,000 per year for undergraduate programs and $20,000 to $40,000 per year for graduate programs.
+
+2. Accommodation: The cost of accommodation can vary widely depending on the city and type of housing. On-campus residence halls typically cost between $6,000 and $12,000 per year, while off-campus apartments can range from $500 to $1,500 per month.
+
+3. Food: Groceries and dining out can cost between $300 and $600 per month, depending on dietary preferences and eating habits.
+
+4. Transportation: Public transportation costs can vary depending on the city, but a monthly pass typically costs between $50 and $150. If you plan to drive, you will need to factor in the cost of a",24.49163975900001,956,256,True
+33,169,Do I need to take additional language courses in USA?,"Whether or not you need to take additional language courses in the USA depends on several factors, including your current language proficiency, the program you are applying to, and your future career goals.
+
+1. Language Proficiency: If you are a non-native English speaker, you may need to demonstrate English proficiency through standardized tests such as TOEFL or IELTS. The required scores vary depending on the institution and program.
+
+2. Program Requirements: Some programs, especially those in fields like literature, linguistics, or education, may require a higher level of language proficiency. Check the specific requirements for the programs you are interested in.
+
+3. Career Goals: If you plan to work in a field where English is the primary language of communication, such as business, technology, or healthcare, improving your English skills can be beneficial.
+
+4. Immersion: Living in the USA provides opportunities for language immersion, but it may take time to achieve fluency. Taking additional language courses can accelerate this process.
+
+In summary, while it is not mandatory for all students, taking additional language courses in the USA can enhance your academic and professional opportunities. It is recommended to research the specific requirements of your intended",24.228675820999797,1293,256,True
+34,238,What scholarships are available for Brazilian students in Bangladesh?,"## Scholarships for Brazilian Students in Bangladesh
+
+Brazilian students seeking higher education opportunities in Bangladesh may qualify for various scholarships. These scholarships can help cover tuition fees, living expenses, and other costs associated with studying abroad. Here are some notable scholarships available for Brazilian students in Bangladesh:
+
+### 1. Government of Bangladesh Scholarships
+
+* **Bangladesh Government Scholarship for Brazilian Students:** This scholarship is offered by the Bangladesh government to international students, including Brazilians, to pursue undergraduate and postgraduate studies in Bangladesh.
+* **Bangladesh Technical Education Board (BTEB) Scholarship:** This scholarship is specifically for Brazilian students pursuing technical and vocational education in Bangladesh.
+
+### 2. University-Specific Scholarships
+
+* **University of Dhaka Scholarship for Brazilian Students:** The University of Dhaka offers scholarships to international students, including Brazilians, to pursue undergraduate and postgraduate studies.
+* **BRAC University Scholarship for Brazilian Students:** BRAC University offers scholarships to international students, including Brazilians, to pursue undergraduate and post",23.09171991600033,1242,256,True
+35,244,How to find research assistantships in Social Sciences?,"Finding research assistantships in Social Sciences involves a combination of strategic planning, networking, and a proactive approach. Here are some key steps to help you secure a research assistantship:
+
+1. Identify potential research areas and supervisors:
+   * Research universities and departments that align with your interests in Social Sciences.
+   * Explore faculty websites and publications to find researchers working on projects that match your academic background and career goals.
+
+2. Prepare a strong application:
+   * Craft a compelling cover letter that highlights your research interests, relevant skills, and why you are a suitable candidate for the position.
+   * Update your resume to showcase your academic achievements, research experience, and any relevant skills.
+   * Request letters of recommendation from professors or mentors who can attest to your research abilities and work ethic.
+
+3. Network and reach out to potential supervisors:
+   * Attend conferences, workshops, and seminars related to your field to connect with researchers and learn about potential opportunities.
+   * Reach out to professors and researchers via email or LinkedIn to express your interest in their work and inquire about potential research assistantships.
+   * Schedule informational",24.169157470999835,1290,256,True
+36,144,What documents do I need for applying to MBA?,"Applying for an MBA program typically requires a variety of documents. Here are some of the most common ones:
+
+1. **Transcripts**: Official transcripts from all post-secondary institutions attended are necessary. These documents provide a record of your academic performance and are essential for evaluating your academic qualifications.
+
+2. **GMAT or GRE Scores**: Most MBA programs require standardized test scores, such as the Graduate Management Admission Test (GMAT) or the Graduate Record Examination (GRE). These tests assess your analytical, quantitative, and verbal reasoning skills.
+
+3. **Letters of Recommendation**: Typically, you will need two to three letters of recommendation from individuals who can attest to your professional and academic abilities. These letters should come from professors, supervisors, or colleagues who can provide insights into your work ethic, leadership skills, and potential for success in an MBA program.
+
+4. **Resume or CV**: A well-crafted resume or CV is crucial for showcasing your professional experience, skills, and accomplishments. It should highlight your relevant work experience, education, and any extracurricular",24.42643490899991,1170,256,True
+37,349,Do I need to submit my IGCSE for admission to Bachelor of Medicine at Stanford?,"Stanford University does not require IGCSE (International General Certificate of Secondary Education) for admission to its Bachelor of Medicine program. Instead, they focus on your performance in pre-medical coursework, such as biology, chemistry, physics, and mathematics, typically taken in high school or equivalent.
+
+Stanford's undergraduate admission process is highly competitive, and they consider a holistic review of your academic record, extracurricular activities, personal statement, and letters of recommendation. It's essential to research the specific requirements for the program you're interested in and ensure you meet the eligibility criteria.
+
+For the Bachelor of Medicine program, Stanford University requires applicants to have completed a bachelor's degree in a relevant field, typically with a strong foundation in science and mathematics. They also consider applicants with prior healthcare experience or research experience.
+
+In summary, while IGCSE is not a requirement for admission to Stanford's Bachelor of Medicine program, it's crucial to focus on excelling in pre-medical coursework and building a strong application profile to increase your chances of admission.",22.043364216999635,1196,239,False
+38,55,Do I need to take additional language courses in USA?,"Whether or not you need to take additional language courses in the USA depends on several factors, including your current language proficiency, the program you are applying to, and your future career goals.
+
+1. Language Proficiency: If you are a non-native English speaker, you may need to demonstrate English proficiency through standardized tests such as TOEFL or IELTS. The required scores vary depending on the institution and program.
+
+2. Program Requirements: Some programs, especially those in fields like literature, linguistics, or education, may require a higher level of language proficiency. Check the specific requirements for the programs you are interested in.
+
+3. Career Goals: If you plan to work in a field where English is the primary language of communication, such as business, technology, or healthcare, improving your English skills can be beneficial.
+
+4. Immersion: Living in the USA provides opportunities for language immersion, but it may take time to achieve fluency. Taking additional language courses can accelerate this process.
+
+In summary, while it is not mandatory for all students, taking additional language courses in the USA can enhance your academic and professional opportunities. It is recommended to research the specific requirements of your intended",23.245906426000147,1293,256,True
+39,200,What documents do I need for applying to MBBS?,"Applying for an MBBS program requires a variety of documents. Here's a general list of documents you may need:
+
+1. Academic Transcripts and Certificates:
+   - High School Transcripts
+   - SAT or ACT Scores (if required)
+   - Bachelor's Degree Transcripts (if applicable)
+   - Official Translation of all documents (if not in English)
+
+2. Standardized Test Scores:
+   - MCAT (Medical College Admission Test)
+   - GRE (Graduate Record Examination) (for some universities)
+
+3. Letters of Recommendation:
+   - Typically 2-3 letters from professors or academic advisors who can attest to your academic abilities and potential
+
+4. Personal Statement:
+   - A well-written essay that explains your motivation for pursuing medicine, your career goals, and why you are a suitable candidate for the program
+
+5. Curriculum Vitae or Resume:
+   - Highlighting your academic achievements, extracurricular activities, work experience, and any relevant research or volunteer work
+
+6. Proof of English",24.17380268399984,983,256,True
+40,369,Which universities in UK are best for Computer Science?,"Choosing the right university for Computer Science in the UK depends on various factors such as your specific interests, career goals, and the university's reputation. Here are some top-ranked universities in the UK for Computer Science:
+
+1. University of Cambridge: Known for its world-class research and teaching in Computer Science, Cambridge offers a wide range of programs, including undergraduate and postgraduate degrees.
+
+2. University of Oxford: Oxford's Department of Computer Science is renowned for its cutting-edge research and innovative teaching methods. It offers a variety of programs, including a Bachelor of Arts in Computer Science.
+
+3. Imperial College London: Imperial College is a leading research-intensive university with a strong focus on Computer Science. Its Department of Computing offers undergraduate and postgraduate programs, including a Master's in Computer Science.
+
+4. University of Edinburgh: The School of Informatics at Edinburgh is one of the largest and most successful in the UK. It offers a range of programs, including a Master of Science in Artificial Intelligence.
+
+5. University of Manchester: The School of Computer Science at Manchester is a leading research institution with a strong focus on artificial intelligence, data science, and cybersecurity",24.347010124000008,1299,256,True
+41,94,Tips for academic writing in English?,"1. **Understand the Assignment:** Clearly understand the requirements of the assignment, including the topic, word limit, and specific instructions. This will help you focus your writing and ensure you meet the expectations.
+
+2. **Research Thoroughly:** Conduct extensive research on your topic to gather credible sources and supporting evidence. Use academic databases, books, and reputable websites to find relevant information.
+
+3. **Organize Your Thoughts:** Before you start writing, create an outline or mind map to organize your ideas. This will help you structure your paper logically and ensure a coherent flow of ideas.
+
+4. **Write a Strong Thesis Statement:** Your thesis statement should clearly state the main argument or claim of your paper. It should be concise, specific, and debatable.
+
+5. **Use Proper Grammar and Vocabulary:** Pay attention to grammar, punctuation, and spelling. Use formal language and academic vocabulary appropriate for your field of study.
+
+6. **Cite Your Sources:** Properly cite all sources you use in your paper to avoid plagiarism. Use a consistent citation style, such as MLA, APA",23.690216639000027,1125,256,True
+42,34,How can I adjust to student life in Canada?,"Adjusting to student life in Canada can be an exciting yet challenging experience. Here are some key tips to help you navigate this transition smoothly:
+
+1. **Understand the Academic System:**
+   - Familiarize yourself with the Canadian education system, grading scale, and assessment methods.
+   - Research the curriculum and course requirements for your program.
+   - Attend orientation sessions and meet your professors to understand the expectations.
+
+2. **Cultural Immersion:**
+   - Embrace the Canadian culture by attending local events, joining clubs, and interacting with fellow students.
+   - Learn basic French or indigenous languages if applicable to connect with the community.
+   - Respect Canadian values and customs, such as punctuality, politeness, and diversity.
+
+3. **Manage Time Effectively:**
+   - Create a study schedule and stick to it.
+   - Prioritize assignments and deadlines.
+   - Allocate time for extracurricular activities, socializing, and relaxation.
+
+4. **Financial Planning:**
+   - Understand the cost of living in your city and budget accordingly.
+   - Apply for scholarships, bursaries, and",23.64465099400013,1125,256,True
+43,106,Which language courses are recommended for Nepali students?,"Choosing the right language courses can significantly enhance your academic and professional opportunities. As a Nepali student, here are some recommended language courses to consider:
+
+1. English Language Proficiency (ELP) Courses:
+   - TOEFL (Test of English as a Foreign Language)
+   - IELTS (International English Language Testing System)
+   - Cambridge English Exams (PET, FCE, CAE, CPE)
+
+   These courses help improve your English language skills, making it easier to communicate in an academic and professional setting.
+
+2. Foreign Language Courses:
+   - Mandarin Chinese
+   - Spanish
+   - French
+   - German
+   - Japanese
+
+   Learning a foreign language can open doors to new career opportunities, enhance cultural understanding, and broaden your global perspective.
+
+3. Technical Language Courses:
+   - Programming Languages (Python, Java, C++, etc.)
+   - Data Science (R, SQL, Python, etc.)
+   - Business Language (Financial Accounting, Business English, etc.)
+
+   These courses equip you with the necessary language skills for specific technical fields, increasing your employability in various",24.24965238799996,1105,256,True
+44,299,How can I get a full scholarship for studying Masters in USA?,"Securing a full scholarship for a Master's degree in the USA requires a combination of academic excellence, a compelling application, and strategic planning. Here are some key steps to consider:
+
+1. **Academic Excellence:** Maintain a high GPA and standardized test scores (GRE/GMAT/IELTS/TOEFL). This is the foundation for your application and demonstrates your academic potential.
+
+2. **Research Universities:** Identify universities that offer your desired program and have a history of awarding scholarships to international students. Check their websites for scholarship opportunities and eligibility criteria.
+
+3. **Strong Application:** Craft a compelling statement of purpose that clearly articulates your academic goals, research interests, and why you are a suitable candidate for the program. Highlight any relevant work experience, extracurricular activities, and leadership roles.
+
+4. **Letters of Recommendation:** Secure strong letters of recommendation from professors or professionals who can attest to your academic abilities and potential.
+
+5. **Financial Need:** Demonstrate financial need if applicable. Many scholarships are awarded based on financial need, so provide detailed information about",24.583913713999664,1217,256,True
+45,376,How can I get a full scholarship for studying Engineering in EU?,"Securing a full scholarship for studying Engineering in the EU requires a combination of academic excellence, a compelling application, and strategic planning. Here are some key steps to consider:
+
+1. **Academic Excellence:** Maintain a high GPA and excel in relevant coursework. This is crucial as most scholarships are awarded to students with exceptional academic records.
+
+2. **Research Scholarship Opportunities:** Explore various scholarship programs offered by universities, governments, and private organizations. Some popular options include Erasmus Mundus scholarships, DAAD scholarships, and scholarships offered by individual universities.
+
+3. **Prepare a Strong Application:** Tailor your application to each scholarship's specific requirements. Include a well-written personal statement, letters of recommendation, and transcripts. Highlight your academic achievements, extracurricular activities, and why you are interested in studying Engineering in the EU.
+
+4. **Meet Application Deadlines:** Scholarship deadlines vary, so it's essential to research and apply well in advance. Missing deadlines can significantly reduce your chances of receiving a scholarship.
+
+5. **Language Proficiency:** Demonstr",23.935516030000144,1217,256,True
+46,246,How to make friends and network as an international student?,"Making friends and networking as an international student can be a rewarding experience that enhances your study abroad journey. Here are some strategies to help you connect with others:
+
+1. Join clubs and organizations: Universities often have a wide range of clubs and organizations that cater to various interests. Joining these groups provides opportunities to meet people who share similar passions and interests.
+
+2. Attend campus events: Universities host numerous events throughout the year, such as orientation programs, cultural festivals, and social gatherings. These events are excellent platforms to meet new people and learn about different cultures.
+
+3. Participate in language exchange programs: Language exchange programs pair international students with local students who are willing to practice their language skills. This is a great way to make friends, improve your language proficiency, and gain insights into the local culture.
+
+4. Utilize social media: Social media platforms like Facebook groups, Instagram, and LinkedIn can help you connect with other international students at your university. Join groups related to your interests or nationality, and participate in online discussions and events.
+
+5. Volunteer: Volunteering is a meaningful way to give back to the community while meeting new people. Look for volunteer opportunities",23.69391142600034,1362,256,True
+47,343,What is the student visa process for Uzbekistan?,"The student visa process for Uzbekistan involves several steps. Here's a general overview:
+
+1. **Application**: Submit an application to the Uzbek embassy or consulate in your home country. This application will typically include personal information, educational background, and the purpose of your study in Uzbekistan.
+
+2. **Acceptance Letter**: Obtain an acceptance letter from a recognized educational institution in Uzbekistan. This letter should confirm your admission and the duration of your studies.
+
+3. **Visa Invitation**: Once your application is approved, the Uzbek embassy will issue a visa invitation letter. This letter is essential for your visa application.
+
+4. **Visa Application**: Submit your visa application to the Uzbek embassy or consulate. You will need to provide your passport, visa invitation letter, acceptance letter, proof of financial means, and other supporting documents.
+
+5. **Interview**: Some applicants may be required to attend an interview at the embassy or consulate.
+
+6. **Visa Issuance**: If your application is approved, the embassy will issue your student visa. The visa will specify the duration of your",24.267587189000096,1150,256,True
+48,165,What are the job prospects after MBA in USA?,"Pursuing an MBA in the USA can open up a wide range of career opportunities across various industries. Here are some of the most common job prospects for MBA graduates:
+
+1. Management Consultant: Management consultants help businesses improve their performance by analyzing their operations and providing recommendations. This role requires strong analytical and problem-solving skills, as well as the ability to communicate effectively with clients.
+
+2. Investment Banker: Investment bankers work with clients to raise capital, manage investments, and advise on mergers and acquisitions. This role requires a strong understanding of financial markets and investment strategies.
+
+3. Marketing Manager: Marketing managers develop and implement marketing campaigns to promote products and services. This role requires creativity, communication skills, and the ability to analyze market trends.
+
+4. Financial Analyst: Financial analysts evaluate financial data to provide recommendations to businesses and investors. This role requires strong analytical skills and a deep understanding of financial markets.
+
+5. Operations Manager: Operations managers oversee the day-to-day operations of a business, ensuring that it runs efficiently and effectively. This role requires strong leadership and organizational skills.
+
+6. Entrepreneur: Many MBA gradu",24.05151418300011,1345,256,True
+49,233,Sports and fitness facilities for students at MIT?,"MIT offers a wide range of sports and fitness facilities for its students to promote physical well-being and a healthy lifestyle. Here are some key facilities and programs:
+
+1. **Zesiger Sports and Fitness Center**: This state-of-the-art facility features a 50-meter pool, a 200-meter indoor track, a fitness center with cardio and strength training equipment, and multiple basketball, volleyball, and squash courts.
+
+2. **DuPont Tennis Stadium**: Home to the MIT men's and women's tennis teams, this facility offers 12 outdoor tennis courts and a pro shop.
+
+3. **Roberts Field at MIT**: This outdoor athletic complex includes a football field, a soccer field, a baseball field, and a softball field.
+
+4. **MIT Sailing Pavilion**: Located on the Charles River, the sailing pavilion provides access to sailboats, kayaks, and rowing shells for students.
+
+5. **Intramural Sports**: MIT offers a variety of intramural sports leagues, including basketball, soccer, flag football, and ultimate fris",23.523841476000143,992,256,True
+50,333,How to find research assistantships in Social Sciences?,"Finding research assistantships in Social Sciences involves a combination of strategic planning, networking, and a proactive approach. Here are some key steps to help you secure a research assistantship:
+
+1. Identify potential research areas and supervisors:
+   * Research universities and departments that align with your interests in Social Sciences.
+   * Explore faculty websites and publications to find researchers working on projects that match your academic background and career goals.
+
+2. Prepare a strong application:
+   * Craft a compelling cover letter that highlights your research interests, relevant skills, and why you are a suitable candidate for the position.
+   * Update your resume to showcase your academic achievements, research experience, and any relevant skills.
+   * Request letters of recommendation from professors or mentors who can attest to your research abilities and work ethic.
+
+3. Network and reach out to potential supervisors:
+   * Attend conferences, workshops, and seminars related to your field to connect with researchers and learn about potential opportunities.
+   * Reach out to professors and researchers via email or LinkedIn to express your interest in their work and inquire about potential research assistantships.
+   * Schedule informational",24.046363522999854,1290,256,True

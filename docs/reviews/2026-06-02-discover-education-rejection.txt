@@ -1,0 +1,63 @@
+Sharda University Mail	MD Millat Hosen <2022811342.md@ug.sharda.ac.in>
+Decision on your submission to Discover Education
+1 message
+Discover Education <discovereducation@springernature.com>	Tue, Jun 2, 2026 at 10:18 AM
+To: 2022811342.md@ug.sharda.ac.in
+Ref: Submission ID ce260e92-5f56-44a0-9002-4cc36918dbd1
+
+Dear Dr HOSEN,
+
+Your manuscript "A LoRA-Based Approach to Fine-Tuning LLMs for Educational Guidance in Resource-Constrained Settings" has now been assessed. If there are any reviewer comments on your manuscript, you can find them at the end of this email.
+
+Regrettably, your manuscript has been rejected for publication in Discover Education.
+
+Editor Comments
+"As the reviewers suggested, there are areas for improvement before the paper can be considered further."
+-Oscar Karnalim
+
+Thank you for the opportunity to review your work. I'm sorry that we cannot be more positive on this occasion and hope you will not be deterred from submitting future work to Discover Education.
+
+Kind regards,
+Etisha Botre
+Assistant Editor
+Discover Education
+
+Reviewer Comments:
+
+Reviewer 1
+This manuscript describes a practical implementation of LoRA fine-tuning for a domain-specific educational chatbot designed to run on limited hardware resources. Although the topic is timely and relevant, the work does not demonstrate sufficient scientific novelty, rigorous evaluation, methodological depth, or experimental validation to meet the standards for publication in a leading peer-reviewed venue.
+
+The submission more closely resembles an engineering or tutorial-style implementation report than a substantive research contribution.
+
+Reviewer 2
+This manuscript applies LoRA-based fine-tuning of an LLM to study-abroad advising, which is of practical value in education. However, some issues in the technical implementation need to be addressed.
+1.      The model is evaluated solely by a training loss reduction from 1.01 to 0.34, which only reflects fit to the training set rather than output quality. The authors are encouraged to set aside an independent test set and report standard NLP metrics (e.g., BLEU, ROUGE, BERTScore, perplexity), ideally with a comparison against the un-fine-tuned Mistral-7B baseline.
+2.      The training data is entirely synthetic (Gemini-generated). It is recommended that the authors collect a small set of real student–advisor interactions for evaluation with NLP metrics, or alternatively conduct a user survey to gather feedback on the model's performance.
+3.      The release of source code and detailed README files is appreciated. However, the manuscript should additionally specify the key LoRA hyperparameters (rank, alpha, dropout) and fine-tuning settings (learning rate, scheduler, warmup, sequence length, etc.) to make the paper self-contained.
+4.      The construction of the synthetic dataset warrants more detail in the manuscript, including: (i) the prompt templates used; (ii) the topical distribution (e.g., visa, scholarship, application); and (iii) the quality filtering criteria — the "Validation & Quality Analysis Scripts" shown in Figure 1 are not described in the text.
+
+
+Attachments:
+• https://reviewer-feedback.springernature.com/download/attachment/fc58b06a-1363-4990-a8e3-d4e033249498
+""
+This manuscript applies LoRA-based fine-tuning of an LLM to study-abroad advising, which
+is of practical value in education. However, some issues in the technical implementation need
+to be addressed.
+1. 2. 3. 4. The model is evaluated solely by a training loss reduction from 1.01 to 0.34, which only
+reflects fit to the training set rather than output quality. The authors are encouraged to set
+aside an independent test set and report standard NLP metrics (e.g., BLEU, ROUGE,
+BERTScore, perplexity), ideally with a comparison against the un-fine-tuned Mistral-7B
+baseline.
+The training data is entirely synthetic (Gemini-generated). It is recommended that the
+authors collect a small set of real student–advisor interactions for evaluation with NLP
+metrics, or alternatively conduct a user survey to gather feedback on the model's
+performance.
+The release of source code and detailed README files is appreciated. However, the
+manuscript should additionally specify the key LoRA hyperparameters (rank, alpha,
+dropout) and fine-tuning settings (learning rate, scheduler, warmup, sequence length, etc.)
+to make the paper self-contained.
+The construction of the synthetic dataset warrants more detail in the manuscript,
+including: (i) the prompt templates used; (ii) the topical distribution (e.g., visa,
+scholarship, application); and (iii) the quality filtering criteria — the "Validation &
+Quality Analysis Scripts" shown in Figure 1 are not described in the text.
+""

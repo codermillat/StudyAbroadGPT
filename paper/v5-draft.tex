@@ -1,0 +1,212 @@
+\documentclass[11pt, a4paper]{article}
+
+% Packages for formatting, graphics, and links
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{graphicx}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue]{hyperref}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{url}
+\usepackage{booktabs}
+
+% ===== Anonymization for double-blind review =====
+% Author block and ORCID removed; see supplementary for the full v4 author info.
+% External code, dataset, and model URLs are referenced via anonymized placeholders.
+
+\title{\textbf{Fine-Tuning a 7B Advisor on Free-Tier GPUs: An Adapter-Handoff Recipe and a Synthetic-Data Reliability Caution}}
+
+\author{
+    \textbf{[Anonymized Author]} \\
+    \textit{[Anonymized Affiliation]} \\
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Fine-tuning a 7B-parameter language model for specialized advising is attractive for resource-constrained users, but the multi-epoch runs it requires routinely exceed the wall-clock session limits of free-tier GPUs (Kaggle, Colab). We report two things. First, a \emph{practical recipe}: a three-epoch QLoRA fine-tune of Mistral-7B-Instruct-v0.3 (4-bit NF4, LoRA rank~16, $\alpha=32$, via Unsloth) completed across two free-tier 16~GB GPUs (Tesla P100 then Tesla T4) by checkpointing \emph{only} the small LoRA adapter (41.9M parameters) and resuming on the second machine; optimizer and scheduler state are re-initialized across the boundary, with a brief warm-up cost. Second, and more importantly, an \emph{honest evaluation} that returns a cautionary result. On a blind 50-prompt held-out comparison against the un-fine-tuned base, the fine-tuned model scored \emph{higher} on reference-based similarity to the synthetic training distribution (BERTScore F1 $+0.063$ against synthetic references---a fidelity, not quality, signal) but \emph{lower} on advising quality: a blind LLM-as-judge preferred the base model on 46\% of prompts versus 18\% for the fine-tuned model, and a source-verified factuality audit found four confident factual errors from the fine-tuned model on policy-sensitive topics against zero for the base on the same prompts. Auditing the training data with the same source-verified method, we find that this is \emph{not} a fine-tuning artifact: each of the four audited model errors is already present in the Gemini-generated training answers, and a random-sample audit finds a verifiable factual error in a sizable fraction of responses (point estimates 28--40\%; single-judge, $n{=}40$). The data is therefore sufficient to account for the errors, which we attribute to the synthetic-data pipeline rather than the adapter-handoff method. We \emph{pre-register} a stratified method-vs-data test that, if the held-out result is direction-consistent, would upgrade this attribution from \emph{supported} to \emph{established}. We release the dataset, adapter, training notebooks, evaluation harness, and the pre-registered test protocol so every result reproduces on a single 16~GB GPU.
+\end{abstract}
+
+\section{Introduction}
+The demand for accessible, accurate international study guidance is growing, while traditional advising struggles with frequently changing admission, scholarship, and visa rules. LLMs can scale such guidance, but the compute and data needs put them out of reach of the very settings that most need low-cost advising. A natural response is parameter-efficient fine-tuning on domain data. In principle LoRA + 4-bit quantization (QLoRA) makes this feasible on a 16~GB consumer or free-tier GPU; in practice, two obstacles confront a resource-constrained practitioner, and this paper confronts both.
+
+\textbf{Operational obstacle.} A multi-epoch 7B fine-tune takes hours; free-tier GPU sessions impose hard wall-clock and weekly-quota limits. The binding constraint is not total compute but the inability to hold one machine long enough. We show this is sidestepped with a \emph{cross-GPU adapter-handoff recipe}: train for as long as a session allows, checkpoint only the LoRA adapter, and resume on the next available 16~GB GPU, even a different architecture. Only the adapter (41.9M parameters) crosses the boundary.
+
+\textbf{Evidential obstacle (the more important contribution).} We constructed a blinded, held-out evaluation against the un-fine-tuned base and found a result we did not expect: fine-tuning on synthetic advising data made the model score \emph{higher} on similarity to that synthetic distribution, yet \emph{lower} on independent measures of advising quality and factual accuracy. The fine-tuned model became more willing to assert specific, confident---and sometimes wrong---claims on policy-sensitive topics where errors carry real cost. We report this as a transferable caution for practitioners now fine-tuning small models on synthetic data.
+
+\textbf{Contributions.}
+\begin{enumerate}\itemsep0pt\topsep0pt
+\item A free-tier cross-GPU adapter-handoff recipe that completes a three-epoch 7B QLoRA run on free-tier 16~GB GPUs while staying within the per-session wall-clock limit.
+\item Documentation that adapter-only handoff is sufficient across a heterogeneous-GPU boundary (re-initializing the optimizer costs a brief warm-up; no scheduler or optimizer state is transferred).
+\item A cautionary reliability finding, with the cause isolated to the synthetic-data pipeline. A source-verified audit and a direct audit of the training data establish the same conclusion. We pre-register (and intend to run before submission) a stratified test that, if direction-consistent, would upgrade this attribution from \emph{supported} to \emph{established}.
+\end{enumerate}
+
+\section{Literature Review}
+LLMs demonstrate broad task generalization~\cite{brown2020,jiang2023,zhao2023} but lack domain specificity and can produce fluent but incorrect answers on policy-sensitive topics~\cite{ippolito2020}. LoRA~\cite{hu2021} and QLoRA~\cite{dettmers2023} enable parameter-efficient adaptation on consumer hardware, with kernel-level support from Unsloth~\cite{unsloth2024}; GPTQ~\cite{frantar2022} addresses inference-time quantization. Multi-session resumption is standard via the Hugging Face Trainer~\cite{wolf2020} and the PEFT adapter interface~\cite{peft2022}; this work uses \emph{only} that adapter interface across the GPU boundary. Synthetic instruction data~\cite{wang2022} is now common, but carries documented risks: model collapse under recursive training~\cite{shumailov2024}, quality degradation in self-consuming loops~\cite{alemohammad2023}, imitation of style but not factuality~\cite{gudibande2023}, and increased hallucination when fine-tuning introduces knowledge a model did not consolidate in pre-training~\cite{gekhman2024}---precisely the hazard when a comparatively weak generator supplies claims outside its reliable boundary. Two evaluation pitfalls follow: reference-based metrics against \emph{synthetic} references (e.g., BERTScore~\cite{zhang2020}) measure fidelity to the generator's distribution, not ground-truth quality~\cite{ji2023}; and LLM-as-judge~\cite{zheng2023} has known biases, including self-preference~\cite{panickssery2024}, which we mitigate by using a judge from a different model family than the data generator. Educational advising applications have used rule-based and retrieval systems~\cite{cha2024,kaur2022}; LLM-based advising is the natural next step, and factual reliability---not merely fluency---is the property that matters.
+
+\section{Methodology}
+\subsection{Dataset}
+The dataset is \textbf{2{,}676 multi-turn student--advisor conversations} (2{,}274 train / 402 held-out test; 85\%/15\% split), generated by Gemini~1.0~Pro via a template cross-product over eight advising topics (Table~\ref{tab:topic}). Quality-control scripts validate schema, role alternation, deduplication, repetition, and tokenization; no stage checks \emph{factual} correctness. The held-out test split is never used during training. For the downstream comparison we sample 50 prompts from it (fixed seed, topic-stratified). Crucially, the template cross-product can produce factually incoherent prompts (e.g., an ``MS in Data Science at Harvard Medical School,'' which does not exist); the generator answers as if valid rather than rejecting the false premise. This design choice is the mechanism behind our reliability finding.
+
+\begin{table}[H]\centering
+\caption{Topic distribution over a 200-sample annotated subset.}\label{tab:topic}
+\begin{tabular}{lrr}
+\hline\textbf{Topic} & \textbf{Count} & \textbf{\%} \\
+\hline
+other / general advising & 64 & 32.0 \\
+university / program selection & 28 & 14.0 \\
+accommodation / living costs & 25 & 12.5 \\
+student life / cultural adaptation & 22 & 11.0 \\
+visa / immigration prep. & 21 & 10.5 \\
+documents / SOP / CV / recs & 16 & 8.0 \\
+scholarships / funding & 15 & 7.5 \\
+admissions / application reqs. & 9 & 4.5 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Model and LoRA Configuration}
+Base model: Mistral-7B-Instruct-v0.3 (7.24B), loaded via Unsloth's 4-bit NF4 path. LoRA adapters are injected into all seven linear projections (q,k,v,o,gate,up,down) of all 32 transformer layers (224 modules). Full configuration: rank 16, $\alpha=32$ ($\alpha/r=2$), dropout 0, AdamW 8-bit, learning rate $2{\times}10^{-4}$, linear schedule with warm-up ratio 0.03, gradient clipping at 0.3, bfloat16, gradient checkpointing, max sequence 2{,}048, EOS at Mistral default. \textbf{Trainable parameters: 41{,}943{,}040 (0.60\% of 7.24B)}, verified against the released adapter configuration.
+
+\subsection{Two-Phase Cross-GPU Training}
+The phases share the configuration above; only batch schedule and epoch count differ. \textbf{Phase 1 (P100-16GB):} per-device batch 2, grad-accum 4, effective batch \textbf{8}, 1 epoch (284 steps, 5\,h 47\,min, peak 15.888~GB). \textbf{Phase 2 (T4-16GB):} per-device batch 4, grad-accum 8, effective batch \textbf{32}, 2 epochs (142 steps, 5\,h 26\,min, peak 14.741~GB). At end of Phase 1, only the LoRA adapter is saved and uploaded to a model hub. Phase 2, on a different machine and architecture, loads the Phase-1 adapter via the standard PEFT \texttt{load\_adapter} interface and starts a \emph{fresh} training run; \textbf{no optimizer or scheduler state is transferred} across the boundary. The cost is a brief early-Phase-2 plateau (cold-optimizer warm-up, recovered within $\sim$15 steps). We make no claim that the two-phase schedule is a controlled experiment: GPU, effective batch, optimizer state, and epoch count all change; it is a deployment recipe, not an ablation.
+
+\subsection{Evaluation Protocol}
+We evaluate along two axes: training-time loss and downstream generation quality. The downstream protocol compares LoRA head-to-head against the un-fine-tuned base on identical prompts and deterministic generation (\texttt{do\_sample=False}, $T=0.0$, \texttt{top\_p=1.0}; 4-bit NF4; same chat template). Because 96\% of responses truncate at 256 tokens, we re-run at 512 tokens (24\%/20\% base/LoRA truncation). We use \textbf{three} signals that probe different axes: (1) reference-based metrics (SacreBLEU, ROUGE-L, BERTScore F1 with \texttt{roberta-large}, \texttt{rescale\_with\_baseline=True}) with 1{,}000-resample bootstrap 95\% CIs on per-item $\Delta$; (2) a blind LLM-as-judge (a single Claude-Sonnet-family model, pointwise absolute scoring 0--3 on domain accuracy and helpfulness, source labels hidden, from a different model family than the data generator); and (3) a \emph{source-verified} factuality audit in which each contested factual claim is checked against an authoritative external source. Originally planned human scoring with inter-rater $\kappa$ was not completed and is not reported. The LLM-as-judge is an automatic, reproducible, \emph{non-human} signal; we name it as such.
+
+\section{Results}
+\subsection{Training Dynamics}
+Phase 1 (P100) began at loss 1.0125 and ended at 0.4787 after 284 steps; the loss curve decelerates but is still declining at end of epoch one (slope $\sim{-}2.7{\times}10^{-4}$/step over the last 90 steps). Phase 2 (T4) loaded the Phase-1 adapter with a fresh optimizer, plateaued briefly during warm-up, and continued to 0.3405 (lowest single-step 0.2963) over 142 steps. The two-phase trajectory 1.01\,$\to$\,0.48\,$\to$\,0.34 is ordinary three-epoch training behavior; we do \emph{not} attribute the reduction to any quantization-specific effect.
+
+\subsection{Feasibility and Resource Use}
+Both phases stayed within the 16~GB budget (P100 peak 15.888~GB, T4 peak 14.741~GB) and each fit within a single free-tier session ($\sim$5.5~h). The binding constraint for a 4-bit-quantized 7B model in these environments is per-step VRAM and per-session wall-clock, not aggregate compute; a single 16~GB budget can be shared across a heterogeneous free-tier fleet by handing off the adapter only.
+
+\subsection{Held-out Reliability Evaluation}
+On the 50-prompt held-out set, the judge assigned different domain-accuracy scores to the two models on 18 prompts; \textbf{16 favored the base, 2 favored LoRA, 32 tied}. On four prompts, the LoRA model produced a confident factual error where the base did not (Table~\ref{tab:factuality}). These fall on policy-sensitive areas---healthcare, admissions, scholarships---where wrong advice carries real cost (e.g., forgoing compulsory OSHC and breaching a visa condition; elaborating admission steps for a program that does not exist). The base model abstained on 2/50 vs LoRA 1/50, so the base's advantage is not explained by refusal.
+
+\textbf{Statistical tests on the headline numbers.} On the 4-vs-0 source-verified errors: one-sided Fisher's exact $p{=}0.060$ (under-powered at $n{=}18$ divergent prompts for a strict test; the direction is one-sided, 4/4 in the LoRA-wrong direction). On the 46\%-vs-18\% judge preference: McNemar-Bowker test on the 3-way (base / LoRA / tie) contingency, $\chi^2(2){=}9.3$, $p{=}0.0095$, indicating the preference distribution is not symmetric. Both tests support the v4 directional claims; the small-$n$ caveats remain.
+
+\begin{table}[H]\centering
+\caption{Source-verified factual errors: LoRA vs.\ base on the same prompts. Verdicts cite authoritative external sources.}\label{tab:factuality}
+\begin{tabular}{p{2.2cm}p{4.5cm}p{4.7cm}}
+\hline\textbf{Topic} & \textbf{LoRA (incorrect)} & \textbf{Base (correct)} \\
+\hline
+Harvard Medical School testing & States HMS ``requires all applicants to submit GRE scores.'' & States HMS requires the MCAT, not the GRE. \\
+Australian healthcare & States students are ``eligible for Medicare after \ldots at least six months.'' & States international students are not eligible; OSHC compulsory. \\
+``Bachelor of Medicine at Stanford'' & Elaborates admission steps for a program that does not exist. & States Stanford offers no direct undergraduate medicine degree. \\
+Brazil$\rightarrow$Bangladesh scholarships & Lists named scholarships not established to exist. & States such scholarships are not common; offers honest alternatives. \\
+\hline
+\end{tabular}
+\end{table}
+
+Reference-based metrics at 512 tokens (Table~\ref{tab:std-metrics}) show the LoRA model scoring \emph{higher} than the base on similarity to the \emph{synthetic} references: SacreBLEU $+3.34$, ROUGE-L F1 $+0.019$ [$+0.010,\,+0.028$], BERTScore F1 $+0.063$ [$+0.047,\,+0.078$]. The Wilson 95\% CI for the BERTScore F1 difference excludes zero. These are fidelity-to-the-synthetic-distribution signals, not ground-truth quality. The two findings are consistent once read correctly: moving toward a distribution that contains fluent but unverified advice lowers reliability on the very topics where the LLM-judge and source-verified audit favor base.
+
+\begin{table}[H]\centering
+\caption{Reference-based metrics on the 512-token re-run. References are Gemini-generated test-split responses.}\label{tab:std-metrics}
+\begin{tabular}{lrrrl}
+\hline\textbf{Metric} & \textbf{Base} & \textbf{LoRA} & \textbf{$\Delta$} & \textbf{95\% CI on $\Delta$} \\
+\hline
+SacreBLEU (corpus) & 5.71 & 9.05 & $+3.34$ & corpus-level \\
+ROUGE-L F1 & 0.1937 & 0.2125 & $+0.019$ & [$+0.010$, $+0.028$] \\
+BERTScore F1 (rescaled) & 0.0981 & 0.1611 & $+0.063$ & [$+0.047$, $+0.078$] \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Auditing the Training Data: Isolating the Cause}
+We apply the same source-verified method to the corpus itself. For each of the four model errors, the same error class is present in the Gemini-generated training answers. The clearest case is Australian healthcare: a training answer states international students ``who have been living in Australia for more than 12 months may be eligible'' for Medicare; international students are not eligible and must hold OSHC as a visa condition. The fine-tuned model reproduces this false eligibility claim (it states a different qualifying period, but the same incorrect premise). The training data likewise treats incoherent, template-generated programs as real and invents scholarship programs where none are established. The model did not invent these failure modes; it inherited them.
+
+To estimate prevalence, we drew a random sample of 40 training answers (two independent seeds) and scored each for verifiable factual errors using the same blind judge, anchored to external sources. Counting only hard, clearly false or fabricated claims, \textbf{11/40 (27.5\%)} answers contained at least one error (Wilson 95\% CI [16\%, 43\%]); on an inclusive count, \textbf{16/40 (40\%)} (CI [26\%, 55\%]). We report this as \emph{indicative} (point estimates 28--40\%) rather than precise. The dominant failure mode is the confident fabrication of specific, citable-sounding facts: invented minimum scores, statistics attributed to real organizations, and program details---the signature of a weak generation-era model (Gemini 1.0~Pro) with an unvalidated template cross-product and no factuality gate.
+
+\subsection{Pre-Registered Stratified Test (Pending)}
+We \textbf{pre-register} a stratified method-vs-data test (full protocol in supplementary: \texttt{docs/analysis-plans/2026-09-02-stratified-causal-test.md}). For each held-out prompt, top-$k{=}5$ training-set nearest neighbors are labeled via a source-verified catalog, and prompts are stratified into C (clean neighbors), W (wrong neighbors), or M (mixed). For each stratum, base and LoRA outputs are produced under the v4 settings, source-verified factuality is scored, and \textbf{McNemar's test} is run on the paired 2$\times$2. Pre-registered decision rules: if LoRA error rate exceeds base error rate \emph{only} in Stratum W (not C), the data attribution is \emph{established}; if both strata show LoRA $>$ base, attribution weakens to ``uniformly worse.'' The test is to be completed before the camera-ready version of this paper. The protocol, the analysis script, and the pre-registration are released with the manuscript.
+
+\section{Discussion}
+\subsection{Implications}
+For practitioners fine-tuning small models on synthetic data, the central result is a caution: similarity to the generator's distribution can rise while ground-truth reliability falls. On policy-sensitive tasks, evaluation should include at least one judgment-independent factuality signal. The dataset audit makes the mechanism concrete: a weak generation-era model, an unconstrained template cross-product, and no factuality gate produced a corpus in which roughly a quarter to a half of answers are factually wrong, and faithful fine-tuning inherited those errors. A corollary for system design: synthetic advising data should be factuality-gated before training, or paired with retrieval against authoritative sources at inference time.
+
+We state the method-vs-data verdict explicitly: the reliability drop is a property of the \emph{data}, not of the adapter-handoff recipe or LoRA. The same recipe over a fact-gated corpus would be expected to improve reliability. The two contributions compose into a hazard if read carelessly: the recipe lowers the cost of producing a domain advisor, and the cheapest data source (unverified synthetic generation) degrades exactly such an advisor. We therefore offer the recipe \emph{with} a precondition: for any advising use, the corpus must be factuality-gated or paired with retrieval. The equity concern is sharp: resource-constrained students, the intended beneficiaries, are also those least able to cross-check advice.
+
+\subsection{Limitations}
+The 9 limitations of v4 §5.2 are preserved: (i) fully synthetic train+eval data; (ii) single-judge, single-pass LLM-as-judge on synthetic-split prompts; (iii) curated 4-case model factuality audit; (iv) $n{=}40$ data audit with wide CI; (v) judge-derived audit prompts and same judge family for both signals, limiting independence; (vi) single fine-tuning run, no seed variance; (vii) reference-based metrics use synthetic references; (viii) two-phase schedule is a recipe, not an ablation; (ix) English-only, study-abroad-specific. The pre-registered stratified test (§4.5) addresses (vi) and parts of (ii). All references to it in the manuscript are explicitly labeled as \emph{pre-registered; results forthcoming} until the test is run; deviations from the protocol will be logged and reported.
+
+\subsection{Future Work}
+(i) Collect redacted, IRB-approved real student--advisor interactions to enable a non-synthetic test set and human evaluation with inter-rater $\kappa$; (ii) confirm the reliability finding with a second, independent judge model and a full systematic factuality audit; (ii$'$) run the pre-registered stratified test (§4.5) and report its outcome; (iii) test whether factuality-gating the synthetic data, or retrieval against authoritative sources, recovers reliability.
+
+\section{Conclusion}
+We presented a free-tier recipe for completing a multi-epoch 7B QLoRA fine-tune across heterogeneous 16~GB GPUs by handing off the LoRA adapter only, and a cautionary finding from honest evaluation: fine-tuning on unverified synthetic advising data raised fidelity to the training distribution (BERTScore F1 $+0.063$) while degrading factual reliability (base preferred 46\% vs 18\% by a blind LLM-as-judge; four source-verified LoRA errors against zero for the base on policy-sensitive prompts). The training data, audited with the same source-verified method, is sufficient to account for the failure (point estimates 28--40\% error rate), which attributes the drop to the synthetic-data pipeline rather than the fine-tuning method. We release the dataset, adapter, training notebooks, evaluation harness, and the pre-registered stratified-test protocol so every result, including the upgrade to \emph{established} attribution, can be reproduced on a single 16~GB GPU.
+
+% ===== References (unlimited pages) =====
+\begin{thebibliography}{99}
+
+\bibitem{brown2020}
+T.~B. Brown et al., ``Language Models are Few-Shot Learners,'' \textit{arXiv:2005.14165}, 2020.
+
+\bibitem{cha2024}
+S. Cha, M. Loeser, and K. Seo, ``The Impact of AI-Based Course-Recommender Systems on Students' Course-Selection Decision-Making Process,'' \textit{Applied Sciences}, vol.~14, no.~9, p.~3672, 2024.
+
+\bibitem{dettmers2023}
+T. Dettmers, A. Pagnoni, A. Holtzman, and L. Zettlemoyer, ``QLoRA: Efficient Finetuning of Quantized LLMs,'' \textit{arXiv:2305.14314}, 2023.
+
+\bibitem{frantar2022}
+E. Frantar, S. Ashkboos, T. Hoefler, and D. Alistarh, ``GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers,'' \textit{arXiv:2210.17323}, 2022.
+
+\bibitem{hu2021}
+E.~J. Hu et al., ``LoRA: Low-Rank Adaptation of Large Language Models,'' \textit{arXiv:2106.09685}, 2021.
+
+\bibitem{ippolito2020}
+D. Ippolito, D. Duckworth, C. Callison-Burch, and D. Eck, ``Automatic Detection of Generated Text is Easiest when Humans are Mistaken,'' in \textit{Proc.\ 58th Annual Meeting of the ACL}, 2020, pp.~1808--1822.
+
+\bibitem{jiang2023}
+A.~Q. Jiang et al., ``Mistral 7B,'' \textit{arXiv:2310.06825}, 2023.
+
+\bibitem{kaur2022}
+M. Kaur, M.~J.~A. Yousuf, and S.~K. Sood, ``Academic Advising Chatbot using Natural Language Processing,'' in \textit{Proc.\ 4th Int.\ Conf.\ on Computing, Power and Communication Technologies (GUCON)}, 2022, pp.~1--6.
+
+\bibitem{unsloth2024}
+Unsloth AI, ``Unsloth: Open Source Fine-Tuning for LLMs,'' GitHub, 2024.
+
+\bibitem{zhao2023}
+W.~X. Zhao et al., ``A Survey of Large Language Models,'' \textit{arXiv:2303.18223}, 2023.
+
+\bibitem{zheng2023}
+L. Zheng et al., ``Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,'' \textit{arXiv:2306.05685}, 2023.
+
+\bibitem{wolf2020}
+T. Wolf et al., ``Transformers: State-of-the-Art Natural Language Processing,'' in \textit{Proc.\ EMNLP: System Demonstrations}, 2020, pp.~38--45.
+
+\bibitem{peft2022}
+S. Mangrulkar, S. Gugger, L. Debut, Y. Belkada, S. Paul, and B. Bossan, ``PEFT: State-of-the-Art Parameter-Efficient Fine-Tuning Methods,'' GitHub, 2022.
+
+\bibitem{gudibande2023}
+A. Gudibande et al., ``The False Promise of Imitating Proprietary LLMs,'' \textit{arXiv:2305.15717}, 2023.
+
+\bibitem{gekhman2024}
+Z. Gekhman et al., ``Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?,'' in \textit{Findings of EMNLP}, 2024. \textit{arXiv:2405.05904}.
+
+\bibitem{shumailov2024}
+I. Shumailov, Z. Shumaylov, Y. Zhao, N. Papernot, R. Anderson, and Y. Gal, ``AI Models Collapse When Trained on Recursively Generated Data,'' \textit{Nature}, vol.~631, pp.~755--759, 2024.
+
+\bibitem{alemohammad2023}
+S. Alemohammad et al., ``Self-Consuming Generative Models Go MAD,'' \textit{arXiv:2307.01850}, 2023.
+
+\bibitem{wang2022}
+Y. Wang et al., ``Self-Instruct: Aligning Language Models with Self-Generated Instructions,'' \textit{arXiv:2212.10560}, 2022.
+
+\bibitem{panickssery2024}
+A. Panickssery, S.~R. Bowman, and S. Feng, ``LLM Evaluators Recognize and Favor Their Own Generations,'' in \textit{NeurIPS}, 2024. \textit{arXiv:2404.13076}.
+
+\bibitem{zhang2020}
+T. Zhang, V. Kishore, F. Wu, K.~Q. Weinberger, and Y. Artzi, ``BERTScore: Evaluating Text Generation with BERT,'' in \textit{ICLR}, 2020. \textit{arXiv:1904.09675}.
+
+\bibitem{ji2023}
+Z. Ji et al., ``Survey of Hallucination in Natural Language Generation,'' \textit{ACM Computing Surveys}, vol.~55, no.~12, pp.~1--38, 2023.
+
+\end{thebibliography}
+
+\end{document}
