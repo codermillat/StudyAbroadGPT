@@ -2,8 +2,11 @@
 
 **Paper:** *Fine-Tuning a 7B Advisor on Free-Tier GPUs: An Adapter-Handoff Recipe and a Synthetic-Data Reliability Caution*
 **arXiv ID:** 2504.15610 (v5; this submission)
-**Submission deadline:** 2026-10-15
-**Workshop:** NAACL 2027 BEA Workshop (Building Educational Applications)
+**Submission deadline:** **2027-02-05** (direct submission) or **2027-03-12** (pre-reviewed ARR commitment)
+**Workshop:** 22nd BEA Workshop (Innovative Use of NLP for Building Educational Applications), co-located with NAACL 2027, San Francisco, June 1-5, 2027
+**Page limit:** 8 pages of content + unlimited references + mandatory Limitations section (does not count toward the 8-page limit; camera-ready version gets 9 content pages)
+
+> **Important:** The original task statement said "deadline Oct 15, 2026" — this was incorrect. NAACL 2027 main conference ARR deadline is Oct 12, 2026 (too late for a clean submission), but the **BEA 2027 workshop deadline is Feb 5, 2027**. We have ~5 months.
 
 ---
 
@@ -140,13 +143,33 @@ The v5 manuscript PDF (`paper/v5-draft.pdf`) does NOT contain any of these — t
 
 ---
 
-## 7. What to do if the workshop has a different page limit
+## 7. Verified page-limit compliance
 
-The current PDF is 8 main + 2 refs = 10 pages. If the workshop allows 8 main + refs (unlimited), we're fine. If the limit is 8 main + 1 ref, we need to:
-- Remove 2 of the 26 references (the 8 added in v5 are: Liu 2025, Min 2023, Vu 2023, Li 2023, Panickssery 2024, Zheng 2023, Lewis 2020, Gao 2024). Removing the §2.4/§2.5 references would also require removing those subsections.
+**Actual BEA 2027 rules (verified from sig-edu.org and the joint NAACL 2027 workshop call):**
+- Long papers: up to **8 pages of content** + **unlimited references** + **mandatory Limitations section** (does not count toward the 8-page limit; can spill to page 9 if needed)
+- Camera-ready: 9 pages of content + unlimited references + Limitations
+- Author kit: official ACL/NAACL style files (mandatory; desk rejection for non-compliance)
+- "Limitations" section is **required** and must come at the end of the paper, before the references
+- Self-references that reveal the author's identity (e.g., "We previously showed (Smith, 1991) …") should be rewritten as "Smith previously showed (Smith, 1991) …" for double-blind
+- arXiv preprints are NOT considered "previously published" — no special disclosure needed for the arXiv:2504.15610 v4 history
 
-If the limit is 9 main + refs (unlimited), we're fine (we have 8 main).
+**Our compliance:**
+- 8 main + 2 refs = 10 pages ✓ (Limitations is on page 8 within the 8-page content area, which is fine)
+- §5.2 Limitations section present ✓
+- 26 references ✓ (within unlimited)
+- No author-revealing self-references in the manuscript ✓ (only arXiv commit hashes and Anonymized placeholders)
+- Uses standard article class, not the official ACL style — **NEEDS FIX** before submission (see below)
 
-If the limit is 9 main + 1 ref, we'd need to drop 1 of the 26 references.
+## 8. Action required: switch to official ACL/NAACL LaTeX style
 
-The user should check the actual workshop page limit before submitting.
+The current PDF uses `\documentclass[11pt, a4paper]{article}` — this is the **wrong template** for *ACL conferences. The workshop requires the official ACL/NAACL style files:
+
+**Download:** https://github.com/acl-org/acl-style-files (LaTeX or Overleaf template)
+**What to change in `paper/v5-draft.tex`:**
+1. Replace the documentclass line with the official one (`acl_natbib` for natbib compat, or `acl`).
+2. Drop the manual `geometry`, `hyperref`, `caption`, `float` settings — the style files handle these.
+3. Use the official `\title{}`, `\author{}` patterns.
+4. Use the official bibliography style (typically `\bibliographystyle{acl_natbib}` with a `.bib` file, or the inline `\begin{thebibliography}` pattern with the ACL format).
+5. The `acl_natbib` style is required for the 8-page content + unlimited refs + Limitations-outside-limit rule.
+
+**Time estimate:** 30-60 min for the conversion. Most of the body text is unchanged; only the preamble needs adjustment.
