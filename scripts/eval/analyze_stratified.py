@@ -208,7 +208,7 @@ def power_verdict(stratum_results: dict[str, StratumResult]) -> str:
         return f"INDICATIVE (n_C={n_c}, n_W={n_w}; >= 30 per stratum, ~50% power to detect 25pp delta)."
     if n_c >= 15 and n_w >= 15:
         return f"UNDER-POWERED and EXPLORATORY (n_C={n_c}, n_W={n_W}; 15-30 per stratum)."
-    return f"INSUFFICIENT (n_C={n_c}, n_W={n_W}; < 15 per stratum). Re-audit to grow the labeled set."
+    return f"INSUFFICIENT (n_C={n_c}, n_W={n_w}; < 15 per stratum). Re-audit to grow the labeled set."
 
 
 # ---------------------------------------------------------------------------
@@ -400,7 +400,7 @@ def main() -> int:
 
     results: list[StratumResult] = []
     for s in allowed:
-        results.append(evaluate_stratum(s, by_stratum[s], n_boot=args.n_boot))
+        results.append(evaluate_stratum(s, by_stratum[s], n_boot=args.n_bootstrap))
 
     write_per_stratum_csv(results, args.output_dir / "per_stratum_results.csv")
     wrote_plot = write_forest_plot(results, args.output_dir / "forest_plot.png")

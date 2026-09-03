@@ -1,0 +1,33 @@
+================================================================
+STRATIFIED CAUSAL TEST — RESULTS SUMMARY (v5 §4.4.3)
+================================================================
+
+Stratum C  (n = 14 pairs)
+  2x2: a=12  b=0 (base wrong, LoRA correct)  c=2 (base correct, LoRA wrong)  d=0
+  Base error rate: 0.000
+  LoRA error rate: 0.143
+  Diff (LoRA - Base): +0.143  95% CI [+0.000, +0.357]
+  McNemar's p (with continuity correction): 0.4795
+  Matched-pair OR (c/b): inf (no b cases)
+
+Stratum W  (n = 13 pairs)
+  2x2: a=6  b=1 (base wrong, LoRA correct)  c=2 (base correct, LoRA wrong)  d=4
+  Base error rate: 0.385
+  LoRA error rate: 0.462
+  Diff (LoRA - Base): +0.077  95% CI [-0.154, +0.308]
+  McNemar's p (with continuity correction): 1.0000
+  Matched-pair OR (c/b): 2.00
+
+Stratum M  (n = 1 pairs)
+  2x2: a=1  b=0 (base wrong, LoRA correct)  c=0 (base correct, LoRA wrong)  d=0
+  Base error rate: 0.000
+  LoRA error rate: 0.000
+  Diff (LoRA - Base): +0.000  95% CI [+0.000, +0.000]
+  McNemar's p: n/a (No discordant pairs; McNemar's test undefined. Direction reported from point estimates only.)
+  Matched-pair OR (c/b): inf (no b cases)
+
+Power verdict (§4.2 of the pre-registration): INSUFFICIENT (n_C=14, n_W=13; < 15 per stratum). Re-audit to grow the labeled set.
+
+Pre-registration §6.4 decision rule:
+  LoRA worse in BOTH strata. Data attribution weakens to 'uniformly worse.'
+================================================================

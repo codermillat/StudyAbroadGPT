@@ -1,0 +1,4 @@
+stratum,n_pairs,a_both_correct,b_base_wrong_lora_correct,c_base_correct_lora_wrong,d_both_wrong,p_lora_error,p_base_error,diff_lora_minus_base,ci95_low,ci95_high,mcnemar_p,matched_pair_or,note
+C,14,12,0,2,0,0.143,0.000,+0.143,+0.000,+0.357,0.4795,inf,
+W,13,6,1,2,4,0.462,0.385,+0.077,-0.154,+0.308,1.0000,2.00,
+M,1,1,0,0,0,0.000,0.000,+0.000,+0.000,+0.000,n/a,inf,No discordant pairs; McNemar's test undefined. Direction reported from point estimates only.
