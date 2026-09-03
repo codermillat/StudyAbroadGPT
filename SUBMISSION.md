@@ -14,13 +14,15 @@
 
 | Item | Status | Notes |
 |---|---|---|
-| Main paper PDF (8 main + 2 refs = 10 pages) | ✓ | `paper/v5-draft.pdf` |
+| Main paper PDF (8 pages, ACL style) | ✓ | `paper/v5-draft.pdf` |
 | Anonymization (4 acceptable leaks documented) | ✓ | `docs/anonymization-note.md` |
 | §4.5 stratified test ran and reported | ✓ | n=28 pairs, direction-consistent, under-powered |
 | Forest plot (Figure 1) with Wilson 95% CIs | ✓ | `paper/fig-v5-section-4-5-forest.png` |
 | Pre-registration frozen 2026-09-02 | ✓ | commit `e86405b711d75972ec798b12cfcfbfe121870993` |
+| Anonymous Gist (3rd-party timestamp) | ✓ | https://gist.github.com/v5bea-prereg-2026/4fcd26a4d004ff0d5b0fa7efb3cb2104 (created 2026-09-03T10:01:25Z) |
+| v5-bea-supplementary release tag | ✓ | `git tag v5-bea-supplementary` → `eb60ef8` |
 | Pre-submission QA (refs, tables, anonymization, spelling) | ✓ | 26/26 refs, 4 tables + 1 figure, 0 typos |
-| Both repos pushed to GitHub | ✓ | paper `26e8e27`, dataset mirror `abfdc36` |
+| Both repos pushed to GitHub | ✓ | paper `eb60ef8`, dataset mirror `abfdc36` |
 
 ---
 
@@ -97,6 +99,15 @@ git push origin v5-bea-supplementary
 For the actual supplementary upload:
 - Either: create a Zenodo deposit with the two repos' tarballs and a single ORCID
 - Or: list the two GitHub URLs in the supplementary section of the submission form
+- Or: download the `v5-bea-supplementary` tarball from the GitHub releases page and upload it
+
+To download the supplementary tarball from the tag:
+```bash
+cd /Users/mdmillathosen/Desktop/StudyAbroadGPT-1
+git archive --format=tar.gz --prefix="v5-bea-supplementary/" \
+    -o /tmp/v5-bea-supplementary.tar.gz v5-bea-supplementary
+# then upload /tmp/v5-bea-supplementary.tar.gz to SoftConf/START
+```
 
 ---
 
