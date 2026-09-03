@@ -264,8 +264,30 @@ def write_excluded_csv(rows: list[dict], path: Path) -> None:
             writer.writerow({k: r.get(k, "") for k in fieldnames})
 
 
+def _wilson_ci(k: int, n: int, z: float = 1.96) -> tuple[float, float]:
+    """Wilson 95% CI on a binomial proportion. Returns (low, high)."""
+    if n == 0:
+        return 0.0, 0.0
+    p = k / n
+    denom = 1 + z * z / n
+    center = (p + z * z / (2 * n)) / denom
+    half = z * math.sqrt((p * (1 - p) + z * z / (4 * n)) / n) / denom
+    return max(0.0, center - half), min(1.0, center + half)
+
+
+def _base_labels(rows: list[dict]) -> tuple[int, int]:
+    """Return (n_base_wrong, n_lora_wrong) for a stratum row set, after exclusions."""
+    n_b = sum(1 for r in rows if (r.get("base_label") or "").strip().lower() == "wrong")
+    n_l = sum(1 for r in rows if (r.get("lora_label") or "").strip().lower() == "wrong")
+    return n_b, n_l
+
+
 def write_forest_plot(results: list[StratumResult], path: Path) -> bool:
-    """Write a forest plot if matplotlib is available. Returns True on success."""
+    """Write a forest plot if matplotlib is available. Returns True on success.
+
+    The plotted CIs are Wilson 95% intervals on the per-stratum error rates
+    (not the difference CI), so the x-axis is naturally bounded to [0, 1].
+    """
     try:
         import matplotlib
         matplotlib.use("Agg")
@@ -276,27 +298,40 @@ def write_forest_plot(results: list[StratumResult], path: Path) -> bool:
     if not results:
         return False
 
-    fig, ax = plt.subplots(figsize=(7, 3.5))
+    fig, ax = plt.subplots(figsize=(6.5, 3.0))
     y_positions = list(range(len(results)))
     labels = [r.stratum for r in results]
     for y, r in zip(y_positions, results):
+        # Re-derive the per-stratum wrong counts so we can compute Wilson CIs on rates.
+        # We have n_pairs and the 2x2 cells; error rate = (b + d) / n for base, (c + d) / n for LoRA.
+        n = r.n_pairs
+        n_b_wrong = r.b + r.d
+        n_l_wrong = r.c + r.d
+        b_lo, b_hi = _wilson_ci(n_b_wrong, n)
+        l_lo, l_hi = _wilson_ci(n_l_wrong, n)
         # base
         ax.errorbar(
             r.p_base, y - 0.15,
-            xerr=[[max(0.0, r.p_base - r.ci_low)], [max(0.0, r.ci_high - r.p_base)]],
+            xerr=[[r.p_base - b_lo], [b_hi - r.p_base]],
             fmt="o", color="C0", capsize=4, label="Base" if y == 0 else None,
+            markersize=7,
         )
         # lora
         ax.errorbar(
             r.p_lora, y + 0.15,
-            xerr=[[max(0.0, r.p_lora - r.ci_low)], [max(0.0, r.ci_high - r.p_lora)]],
+            xerr=[[r.p_lora - l_lo], [l_hi - r.p_lora]],
             fmt="s", color="C3", capsize=4, label="LoRA" if y == 0 else None,
+            markersize=7,
         )
+        # stratum size annotation
+        ax.text(0.98, y, f"n={n}", transform=ax.get_yaxis_transform(),
+                ha="right", va="center", fontsize=8, color="gray")
     ax.set_yticks(y_positions)
     ax.set_yticklabels(labels)
-    ax.set_xlabel("Source-verified error rate (95% bootstrap CI)")
+    ax.set_xlim(-0.02, max(0.6, max(r.p_lora for r in results) + 0.15))
+    ax.set_xlabel("Source-verified factual error rate (Wilson 95% CI)")
     ax.set_title("Stratified source-verified error rates: base vs LoRA")
-    ax.legend(loc="upper right")
+    ax.legend(loc="upper left", frameon=True)
     ax.grid(True, axis="x", alpha=0.3)
     fig.tight_layout()
     fig.savefig(path, dpi=150)
